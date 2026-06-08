@@ -36,6 +36,38 @@ python scripts/reproduce.py
 This compiles the manuscript, builds the arXiv source package, and runs the
 smoke tests.
 
+The reproduction script fixes `SOURCE_DATE_EPOCH` for the TeX build, and the
+arXiv ZIP builder writes deterministic archive timestamps.  The package is
+still a source-level reproducibility target: rendered PDFs can vary slightly
+across TeX engines or local font stacks, but the smoke tests and generated
+source package should remain stable for the committed inputs.
+
+### Online Data Dependencies
+
+The one-command reproduction path:
+
+```bash
+python scripts/reproduce.py
+```
+
+does not perform live online data acquisition.  It compiles the manuscript,
+builds the arXiv ZIP, and runs smoke tests against committed inputs.
+
+Several optional source-acquisition/provenance scripts do reference external
+resources and may require network access when run manually, for example:
+
+- `scripts/acquire_ugc12506_beta_closure_transfer_halo_fit_fields.py`
+  reads/caches the Li et al. SPARC halo-model table from VizieR.
+- `scripts/acquire_ugc12506_highmass_fast_source_context.py` expects the
+  cached UGC12506 HIghMass context PDF derived from arXiv source context.
+- `scripts/acquire_ugc12506_beta_closure_direct_lambda_spin_sources.py` and
+  `scripts/acquire_ugc12506_beta_closure_ngc0891_spin_source_hunt_update.py`
+  record external source-review routes rather than endpoint scores.
+
+Those optional scripts are provenance/source-review helpers.  They are not
+called by `scripts/reproduce.py`, and a failure to reach an external service
+does not affect the committed Paper 9 smoke-test reproduction.
+
 ## arXiv Source Package
 
 `arxiv_submission_source.zip` is generated from `paper9_submission_source/` and

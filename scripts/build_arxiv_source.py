@@ -11,6 +11,7 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parents[1]
 SOURCE = ROOT / "paper9_submission_source"
 OUT = ROOT / "arxiv_submission_source.zip"
+ZIP_EPOCH = (2026, 1, 1, 0, 0, 0)
 
 EXCLUDE_SUFFIXES = {
     ".aux",
@@ -40,7 +41,10 @@ def main() -> None:
     with zipfile.ZipFile(OUT, "w", compression=zipfile.ZIP_DEFLATED) as zf:
         for path in sorted(SOURCE.rglob("*")):
             if path.is_file() and include(path):
-                zf.write(path, path.relative_to(SOURCE))
+                info = zipfile.ZipInfo(path.relative_to(SOURCE).as_posix(), ZIP_EPOCH)
+                info.compress_type = zipfile.ZIP_DEFLATED
+                info.external_attr = 0o644 << 16
+                zf.writestr(info, path.read_bytes())
     print(f"PAPER9_ARXIV_SOURCE_BUILT {OUT}")
 
 
