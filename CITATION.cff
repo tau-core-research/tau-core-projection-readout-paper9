@@ -7,6 +7,6 @@ authors:
     given-names: Jozsef
 year: 2026
 date-released: "2026-06-08"
-version: "v0.1.0"
+version: "v0.1.1"
 repository-code: "https://github.com/tau-core-research/tau-core-projection-readout-paper9"
 license: MIT
