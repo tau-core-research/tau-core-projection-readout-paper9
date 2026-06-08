@@ -1,0 +1,10 @@
+cff-version: 1.2.0
+title: "A source-frozen candidate audit of projection, time-readout, and closure-control kernels in SPARC galaxies"
+message: "If you use this private draft package, please cite the repository and manuscript."
+type: article
+authors:
+  - family-names: Olcsak
+    given-names: Jozsef
+year: 2026
+repository-code: "https://github.com/tau-core-research/tau-core-projection-readout-paper9"
+license: MIT
