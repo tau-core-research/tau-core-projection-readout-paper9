@@ -1,0 +1,5 @@
+galaxy,gate_id,gate_status,evidence,remaining_obligation,endpoint_scores_allowed,claim_boundary
+UGC12506,U12506_XINORM_G1_SOURCE_LOAD_NONNEGATIVE,PASS,L=2.13728; component loads are nonnegative,none,False,ugc12506_xi_t_normalization_derivation_gate_not_endpoint
+UGC12506,U12506_XINORM_G2_BOUNDED_MAP,PASS_CONDITIONAL,"Gamma_clock=L/(1+L) is dimensionless, monotone, null-recovering, and bounded below one.",accept the minimal rational response-map premise,False,ugc12506_xi_t_normalization_derivation_gate_not_endpoint
+UGC12506,U12506_XINORM_G3_CAP_ORIGIN,BLOCKED,epsilon_cap=0.035 is used as a small-mismatch cap,derive epsilon_cap from Tau-side clock geometry or freeze it as a predeclared class constant,False,ugc12506_xi_t_normalization_derivation_gate_not_endpoint
+UGC12506,U12506_XINORM_G4_ENDPOINT_BLOCK,PASS_RECORDED,normalization derivation does not read vobs/residual and does not allow endpoint scoring,accepted Xi_t manifest gate before any scoring,False,ugc12506_xi_t_normalization_derivation_gate_not_endpoint

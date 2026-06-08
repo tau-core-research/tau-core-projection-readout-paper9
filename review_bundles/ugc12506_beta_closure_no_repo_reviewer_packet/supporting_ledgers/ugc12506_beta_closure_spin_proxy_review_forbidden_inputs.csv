@@ -1,0 +1,5 @@
+forbidden_input_id,forbidden_input,reason,claim_boundary
+BSP_FORBID_1_ROTATION_RESIDUALS,v_obs residuals or residual-zone plots,would turn the proxy into residual rescue,ugc12506_beta_closure_spin_proxy_review_bundle_not_endpoint
+BSP_FORBID_2_ENDPOINT_SCORES,"endpoint RMSE, beat fractions, or rank after scoring",proxy promotion must precede any replay,ugc12506_beta_closure_spin_proxy_review_bundle_not_endpoint
+BSP_FORBID_3_BASELINE_RANKS,Newton/MOND/RAR/RMOND/TPG baseline comparison ranks,baseline weakness can motivate audit but not define the proxy,ugc12506_beta_closure_spin_proxy_review_bundle_not_endpoint
+BSP_FORBID_4_DISC_DIRECT_INSERTION,direct insertion of disc lambda into halo/envelope slot,definition conversion gate rejected direct substitution,ugc12506_beta_closure_spin_proxy_review_bundle_not_endpoint

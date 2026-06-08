@@ -1,0 +1,5 @@
+blocker_symbol,updated_status,remaining_blocker,blocks_endpoint_manifest,galaxy,endpoint_scores_allowed,uses_vobs_or_residual,claim_boundary
+K_t(R) envelope mapping,INDEPENDENT_REVIEW_PACKET_READY_RESPONSE_PENDING,review response required before K_t(R) can be accepted,True,UGC12506,False,False,ugc12506_xi_t_source_review_packet_not_endpoint
+clock/readout settling proxy,INDEPENDENT_REVIEW_PACKET_READY_RESPONSE_PENDING,review response required before clock proxy can be accepted,True,UGC12506,False,False,ugc12506_xi_t_source_review_packet_not_endpoint
+epsilon_cap,PROTOCOL_CAP_FROZEN_REVIEW_RESPONSE_PENDING_FOR_MANIFEST_USE,"response must record cap as protocol cap, not universal law",True,UGC12506,False,False,ugc12506_xi_t_source_review_packet_not_endpoint
+path/environment term,ZERO_PATH_POLICY_READY_FOR_REVIEW,nonzero path term requires new cone/path review,False,UGC12506,False,False,ugc12506_xi_t_source_review_packet_not_endpoint

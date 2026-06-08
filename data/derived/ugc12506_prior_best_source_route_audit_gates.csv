@@ -1,0 +1,5 @@
+galaxy,gate_id,gate_status,decision,evidence,endpoint_scores_allowed,claim_boundary
+UGC12506,U12506_PB_G1_PRIOR_DIAGNOSTIC_NOT_LABEL,PASS,preserve prior K_compact_finite as diagnostic only,validation_claim_allowed=False,False,ugc12506_prior_best_source_route_audit_not_endpoint
+UGC12506,U12506_PB_G2_COMPACT_SOURCE_PROMOTION,BLOCKED,do not promote compact/cored source label,source reports significant NFW preference for UGC12506,False,ugc12506_prior_best_source_route_audit_not_endpoint
+UGC12506,U12506_PB_G3_NFW_RAPID_RISE_ROUTE,PASS_CANDIDATE,open source-side NFW-like rapid-rise / concentration shell,NFW preference plus rapid rotation-curve rise,False,ugc12506_prior_best_source_route_audit_not_endpoint
+UGC12506,U12506_PB_G4_HIGH_SPIN_COUPLING,PASS_CANDIDATE,couple rapid-rise shell to high-spin extended-envelope route,lambda=0.15 and stable diffuse H I reservoir,False,ugc12506_prior_best_source_route_audit_not_endpoint

@@ -1,0 +1,7 @@
+gate_id,gate_status,gate_text,galaxy,endpoint_permission,uses_vobs_or_residual,claim_boundary
+U12506_NONOVERLAP_G1_FORMULA_ROLE,PASS,Theta_morph is additive; Xi_t is multiplicative interval-control.,UGC12506,False,False,ugc12506_theta_xit_source_nonoverlap_gate_not_endpoint
+U12506_NONOVERLAP_G2_UNIQUE_THETA_SHAPE,PASS_CONTROL_ONLY,late-settling outer radial shape can be assigned to Theta_morph only.,UGC12506,False,False,ugc12506_theta_xit_source_nonoverlap_gate_not_endpoint
+U12506_NONOVERLAP_G3_UNIQUE_XIT_CAP,PASS_CONTROL_ONLY,"epsilon_t cap is Xi_t-only protocol bound, not a morphology amplitude.",UGC12506,False,False,ugc12506_theta_xit_source_nonoverlap_gate_not_endpoint
+U12506_NONOVERLAP_G4_SHARED_CONTEXT,BLOCK_COMBINED_ENDPOINT,high-spin/envelope/asymmetry context remains shared or partially shared.,UGC12506,False,False,ugc12506_theta_xit_source_nonoverlap_gate_not_endpoint
+U12506_NONOVERLAP_G5_PATH_TERM,BLOCK_PATH_ENDPOINT,path/environment term remains zero unless source path review establishes it.,UGC12506,False,False,ugc12506_theta_xit_source_nonoverlap_gate_not_endpoint
+U12506_NONOVERLAP_G6_ENDPOINT_BOUNDARY,CONTROL_ALLOWED_ENDPOINT_BLOCKED,combined-control replay may be recorded; combined endpoint is not permitted.,UGC12506,False,False,ugc12506_theta_xit_source_nonoverlap_gate_not_endpoint

@@ -1,0 +1,2 @@
+extraction_status,galaxy,nfw_c,nfw_c_err,nfw_r200_kpc,nfw_r200_err_kpc,chi2_nfw,chi2_iso,lambda_spin,nfw_preferred_over_iso,source_native_nfw_kernel_allowed,endpoint_scores_allowed,next_gate,claim_boundary
+UGC12506_TABLE5_HALO_PARAMETERS_EXTRACTED_SOURCE_NATIVE_REPLAY_READY,UGC12506,14.87,0.6,123.0,1.5,0.21,0.54,0.15,True,True,False,build_ugc12506_source_native_nfw_hse_shell,ugc12506_table5_halo_parameter_extraction_source_native_not_endpoint

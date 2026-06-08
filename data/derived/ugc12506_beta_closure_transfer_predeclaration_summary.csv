@@ -1,0 +1,2 @@
+transfer_predeclaration_status,n_candidates,n_endpoint_scores_allowed,n_replay_scores_allowed_now,selection_inputs,top_candidates,next_gate,claim_boundary
+UGC12506_BETA_CLOSURE_TRANSFER_CANDIDATES_PREDECLARED_SOURCE_ACQUISITION_REQUIRED,11,0,0,"SPARC inclination, RHI/Rdisk, MHI, Vflat, quality flag; no rotation residuals",UGC11455;ESO563-G021;IC4202;NGC0891;NGC4013;NGC2841;NGC4157;NGC4217,acquire_source_native_spin_and_halo_fit_fields_for_top_candidates,ugc12506_beta_closure_transfer_predeclaration_not_endpoint

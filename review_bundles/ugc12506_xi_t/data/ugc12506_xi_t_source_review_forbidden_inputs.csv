@@ -1,0 +1,6 @@
+forbidden_input_id,forbidden_input,reason,galaxy,claim_boundary
+U12506_XIT_FORBID_1_ROTATION_RESIDUALS,"v_obs residuals, endpoint RMSE, or radial residual zones",would turn source review into residual-selected clock tuning,UGC12506,ugc12506_xi_t_source_review_packet_not_endpoint
+U12506_XIT_FORBID_2_BASELINE_RANKS,Newton/MOND/RAR/RMOND/TPG baseline ranks,baseline comparison can only be post-score diagnostic context,UGC12506,ugc12506_xi_t_source_review_packet_not_endpoint
+U12506_XIT_FORBID_3_TAU_WRONG_FAMILY_SCORES,wrong-family Tau score ranks or best Tau family,readout route must be selected from source morphology/projection evidence,UGC12506,ugc12506_xi_t_source_review_packet_not_endpoint
+U12506_XIT_FORBID_4_POSTHOC_CAP_CHANGE,changing epsilon_cap after endpoint scoring,would convert the protocol cap into amplitude rescue,UGC12506,ugc12506_xi_t_source_review_packet_not_endpoint
+U12506_XIT_FORBID_5_FOREGROUND_RESCUE,activating path term from a residual deficit without cone/path evidence,path/environment term must remain zero unless source review supports it,UGC12506,ugc12506_xi_t_source_review_packet_not_endpoint

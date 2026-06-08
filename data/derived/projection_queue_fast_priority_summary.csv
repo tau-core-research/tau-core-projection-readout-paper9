@@ -1,0 +1,2 @@
+priority_status,n_queue_galaxies,n_p0,n_p1,n_low_efficiency,top_galaxy,top_three,selection_used_vobs_or_residual,contains_vobs_gap_for_acquisition_triage,endpoint_scores_run_here,claim_boundary
+PROJECTION_QUEUE_FAST_PRIORITY_READY_NOT_ENDPOINT,12,3,3,4,UGC12506,"UGC12506,IC4202,IC2574",False,True,False,projection_queue_fast_priority_acquisition_triage_not_endpoint

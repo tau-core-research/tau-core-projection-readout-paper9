@@ -1,0 +1,2 @@
+ledger_status,n_galaxies,n_endpoint_allowed_now,interpretation,claim_boundary
+PROBLEMATIC_GALAXY_PROJECTION_CHANNEL_LEDGER_BUILT_NOT_ENDPOINT,6,0,"candidate projection channels are identified, but every new channel remains source-freeze/ablation gated",problematic_projection_channel_ledger_not_endpoint

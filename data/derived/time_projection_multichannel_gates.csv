@@ -1,0 +1,5 @@
+gate_id,gate_status,required_condition,forbidden_shortcut,claim_boundary
+TPMULTI_G1_CHANNEL_SEPARATION,REQUIRED,"Freeze Xi_morph, Xi_obs, and Xi_path separately, with Xi_path allowed to be exactly one.",one fitted epsilon_t absorbing all missing amplitude,time_projection_multichannel_fundamental_gate_not_endpoint
+TPMULTI_G2_SOURCE_MORPHOLOGY_TIME,OPEN,"Define source-intrinsic morphology clock/phase observables: settling, warp phase, high-spin envelope state, interaction history.",infer source time phase from rotation residual,time_projection_multichannel_fundamental_gate_not_endpoint
+TPMULTI_G3_OBSERVER_PROJECTION_TIME,OPEN,"Define observer/path clock-slice observables: inclination, edge-on overlay, PV/envelope visibility, beam/null-bundle geometry.",treat generic inclination as clock evidence without source-review support,time_projection_multichannel_fundamental_gate_not_endpoint
+TPMULTI_G4_KERNEL_AND_CLOCK_ABLATION,OPEN,"Run ablations: morphology kernel only, +source time, +observer time, +path time, +kernel deformation.",claim full time projection from a single combined replay,time_projection_multichannel_fundamental_gate_not_endpoint

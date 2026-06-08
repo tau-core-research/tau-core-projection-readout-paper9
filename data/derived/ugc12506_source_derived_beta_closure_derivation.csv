@@ -1,0 +1,5 @@
+step,expression,value,status,galaxy,uses_vobs_or_residual,endpoint_validation_claim,claim_boundary
+BETA_0_LIMIT,beta_cl = 1 + source loads,1.0,PASS: no NFW preference and no edge-on load recovers nominal shell,UGC12506,False,False,ugc12506_source_derived_beta_closure_post_diagnostic_candidate_not_endpoint
+NFW_CLOSURE_LOAD,(lambda_spin/lambda_ref)*(chi2_iso/chi2_nfw - 1)_+,2.357142857142857,PASS: dimensionless source-side closure preference amplified by high spin,UGC12506,False,False,ugc12506_source_derived_beta_closure_post_diagnostic_candidate_not_endpoint
+EDGEON_PROJECTION_LOAD,"sin^2(i)*max((i-80 deg)/10 deg,0)",0.597080420622471,PASS: dimensionless edge-on projection exposure,UGC12506,False,False,ugc12506_source_derived_beta_closure_post_diagnostic_candidate_not_endpoint
+SOURCE_BETA,1 + spin_load*nfw_preference_load + edgeon_load,3.9542232777653283,FORMULA_CANDIDATE: source-only but post-diagnostic,UGC12506,False,False,ugc12506_source_derived_beta_closure_post_diagnostic_candidate_not_endpoint

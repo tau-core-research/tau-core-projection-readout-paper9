@@ -1,0 +1,2 @@
+taxonomy_id,n_channels,main_message,time_projection_status,uses_vobs_or_residual,endpoint_scores_allowed,claim_boundary
+PAPER2_PROJECTION_CHANNEL_TAXONOMY_V1,6,"Paper 2 uses several projection/readout layers, but only source-frozen, non-overlapping channels can be endpoint-active.",control/diagnostic until independent clock evidence survives T/A,False,False,projection_channel_taxonomy_not_endpoint

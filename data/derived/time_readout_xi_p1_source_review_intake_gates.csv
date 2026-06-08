@@ -1,0 +1,5 @@
+gate_id,gate_status,current_result,endpoint_scores_allowed,claim_boundary
+XI_INTAKE_G1_EXISTING_SOURCE_ARTIFACTS_READ,PASS,NGC4088 WHISP/Ursa Major and UGC12506 HIghMass/path artifacts are present.,False,time_readout_xi_p1_source_review_intake_not_endpoint
+XI_INTAKE_G2_NGC4088_MEASUREMENT_BLOCKED,PASS_SOURCE_REVIEWED,NGC4088 q_warp and m_history are accepted for protocol numeric bounds; normalization remains blocked.,False,time_readout_xi_p1_source_review_intake_not_endpoint
+XI_INTAKE_G3_UGC12506_PATH_TERM_ZERO,PASS_CAVEATED,"UGC12506 has strong internal edge-on/envelope/high-spin support, while foreground path object evidence is not established.",False,time_readout_xi_p1_source_review_intake_not_endpoint
+XI_INTAKE_G4_NO_ENDPOINT_PROMOTION,PASS_RECORDED,No accepted Xi_t manifest exists; diagnostic improvement cannot promote endpoint scoring.,False,time_readout_xi_p1_source_review_intake_not_endpoint

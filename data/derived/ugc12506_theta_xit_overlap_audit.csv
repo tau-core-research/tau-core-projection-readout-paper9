@@ -1,0 +1,2 @@
+galaxy,overlap_id,overlap_terms,source_overlap_present,path_term_established,asymmetry_policy,path_policy,nonoverlap_conclusion,claim_boundary
+UGC12506,U12506_THETA_XIT_SOURCE_OVERLAP,high_spin,True,False,"asymmetry remains caveated phase component, not standalone route driver",path term fixed to zero unless later source path review establishes it,"formula roles are separated, but source context partially overlaps; combined endpoint remains blocked",ugc12506_theta_xit_channels_separated_not_combined_endpoint

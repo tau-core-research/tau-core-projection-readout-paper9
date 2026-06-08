@@ -1,0 +1,4 @@
+gate_id,gate_status,required_condition,current_result,claim_boundary
+XI_MANIFEST_G1_NO_RESIDUAL_PROMOTION,PASS_RECORDED,Xi_t candidates cannot be promoted because they improved a rotation curve.,All current rows remain non-endpoint readiness rows.,time_readout_xi_manifest_readiness_not_endpoint
+XI_MANIFEST_G2_TRUE_NULL_ALLOWED,PASS_RECORDED,"If Xi_t worsens or is neutral without source evidence, the manifest must permit Xi_t=1.","NGC4013, NGC5907, and NGC7331 reject the current Xi_t proxy; NGC4183 remains weak/null.",time_readout_xi_manifest_readiness_not_endpoint
+XI_MANIFEST_G3_P1_REQUIRES_SOURCE_REVIEW,PASS_RECORDED,Positive diagnostic cases need independent source observables before any accepted endpoint.,"NGC4088 and UGC12506 are P1 source-review targets, not accepted Xi_t endpoints.",time_readout_xi_manifest_readiness_not_endpoint

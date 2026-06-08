@@ -1,0 +1,2 @@
+channel_status,accepted_endpoint_ready,reason,next_step,claim_boundary
+TIME_READOUT_PROJECTION_BRANCH_DEFINED_NOT_VALIDATED,False,No residual-blind Xi_t(R) manifest is accepted yet; current full-time morphology replay is only a diagnostic proxy.,"Define source observables for Xi_t, freeze a per-galaxy manifest, then run staged ablation endpoints.",time_readout_projection_channel_formula_conditional_not_endpoint

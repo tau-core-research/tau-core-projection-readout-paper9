@@ -1,0 +1,2 @@
+preflight_status,n_galaxies,n_control_replay_allowed,n_endpoint_scores_allowed,strongest_current_route,main_blocker,claim_boundary
+TIME_PROJECTION_ENDPOINT_PREFLIGHT_BUILT_NO_ENDPOINTS_ALLOWED,6,2,0,UGC12506 caveated interval/control replay; NGC4088 additive warp-history route with Xi_eff=1 in the combined endpoint,no source-complete accepted time endpoint with clock evidence orthogonal to the active morphology kernel,time_projection_endpoint_preflight_gate_not_endpoint

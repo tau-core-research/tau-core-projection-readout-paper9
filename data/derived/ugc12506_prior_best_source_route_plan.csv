@@ -1,0 +1,3 @@
+galaxy,route_id,route_status,formula_family_hint,source_basis,not_allowed,claim_boundary
+UGC12506,UGC12506_ROUTE_A_SOURCE_NATIVE_NFW_RAPID_RISE,NEXT_FORMULA_SHELL_CANDIDATE,K_nfw_like_rapid_rise_highspin_envelope,"NFW preference, rapid rise, high spin, extended H I envelope",using prior K_compact_finite score as source label,ugc12506_prior_best_source_route_audit_not_endpoint
+UGC12506,UGC12506_ROUTE_B_COMPACT_FINITE,BLOCKED_AS_SOURCE_LABEL_DIAGNOSTIC_ONLY,K_compact_finite,diagnostic score only; source prefers NFW over pseudo-isothermal,promotion without independent compact/cored source evidence,ugc12506_prior_best_source_route_audit_not_endpoint

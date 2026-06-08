@@ -1,0 +1,6 @@
+galaxy,gate,status,evidence,endpoint_scores_allowed,claim_boundary
+NGC4013,WVO_SOURCE_REFINEMENT_SCORE,PASS_CAVEATED_SCORE,WVO improves over source-rejected compact proxy by 5.54 km/s RMSE.,True,ngc4088_ngc4013_strengthened_scoring_audit
+NGC4013,EXPDISK_WVO_STRONGEST_SCORE,PROSPECTIVE_ONLY,"10.61 km/s RMSE is best in this packet, but retrospective endpoint scores remain disallowed.",False,ngc4088_ngc4013_strengthened_scoring_audit
+NGC4088,BROAD_CLASS_ACCEPTED_ENDPOINT,PASS_CAVEATED_SCORE,Accepted route beats all baselines and all wrong-family controls.,True,ngc4088_ngc4013_strengthened_scoring_audit
+NGC4088,NUMERIC_KERNEL_PROMOTION,BLOCKED,New source review is qualitative; x_warp/q_warp/memory/epsilon_cross are not newly accepted numeric fields.,False,ngc4088_ngc4013_strengthened_scoring_audit
+NGC4088,ADDITIVE_PLUS_CLOCK_STRESS,CONTROL_ONLY_DOUBLE_COUNT_BLOCKED,"RMSE improves to 8.38 km/s, but source-channel overlap blocks endpoint interpretation.",False,ngc4088_ngc4013_strengthened_scoring_audit

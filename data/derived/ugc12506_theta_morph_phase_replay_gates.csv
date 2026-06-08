@@ -1,0 +1,5 @@
+gate_id,gate_status,evidence,endpoint_claim_allowed,galaxy,claim_boundary
+U12506_THETA_G1_SOURCE_PROXY,PASS_DIAGNOSTIC_SOURCE_SUPPORTED,"lambda_spin=0.15, extended low-density H I, high inclination, and mild H I asymmetry",False,UGC12506,ugc12506_theta_morph_phase_replay_diagnostic_not_validation
+U12506_THETA_G2_NO_BACKWARD_CAUSAL_CLAIM,PASS_CLAIM_BOUNDARY,"Theta_morph is treated as trajectory/phase, not future-to-present 4D causality",False,UGC12506,ugc12506_theta_morph_phase_replay_diagnostic_not_validation
+U12506_THETA_G3_RESIDUAL_BLIND_CONSTRUCTION,PASS,"kernel, load, sign, and amplitude use source observables and source-native carrier scale",False,UGC12506,ugc12506_theta_morph_phase_replay_diagnostic_not_validation
+U12506_THETA_G4_STATUS,DIAGNOSTIC_ONLY,theta phase proxy is not yet accepted population observable,False,UGC12506,ugc12506_theta_morph_phase_replay_diagnostic_not_validation

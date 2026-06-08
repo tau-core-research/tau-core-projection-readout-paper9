@@ -1,0 +1,6 @@
+galaxy,gate_id,gate_status,evidence,decision,endpoint_scores_allowed,claim_boundary
+UGC12506,U12506_PH_G1_INTERNAL_PROJECTION,PASS_STRONG,high inclination and PV/envelope method requirement,include as projection-history candidate ingredient,False,ugc12506_projection_history_readout_candidate_gate_not_endpoint
+UGC12506,U12506_PH_G2_MORPHOLOGY_HISTORY_ENVELOPE,PASS_STRONG,extended diffuse stable H I and high spin,include as morphology-carried persistence candidate ingredient,False,ugc12506_projection_history_readout_candidate_gate_not_endpoint
+UGC12506,U12506_PH_G3_ASYMMETRY_HISTORY,PASS_CAVEATED,approaching/receding asymmetry; radial rule not frozen,allow only after source-side sign/weight rule,False,ugc12506_projection_history_readout_candidate_gate_not_endpoint
+UGC12506,U12506_PH_G4_FOREGROUND_PATH,BLOCKED_NOT_ESTABLISHED,known galaxy interloper is higher-redshift; no foreground/path object established,do not include full foreground/path gravity term,False,ugc12506_projection_history_readout_candidate_gate_not_endpoint
+UGC12506,U12506_PH_G5_ENDPOINT_BLINDNESS,PASS_WITH_CAUTION,candidate support comes from source context; replay gap is worklist priority only,no endpoint score allowed from this gate,False,ugc12506_projection_history_readout_candidate_gate_not_endpoint

@@ -1,0 +1,5 @@
+check_id,question,result,reason,endpoint_permission,claim_boundary
+C1_same_physical_object,Does the source lambda measure the same halo/envelope spin slot as beta_cl?,FAIL,Marr lambda is a disc-spin parameter in a lognormal self-gravitating disc model.,False,ugc12506_beta_closure_lambda_definition_conversion_gate_not_endpoint
+C2_same_normalization_role,Can lambda=0.423 be used against lambda_ref=0.10 without conversion?,FAIL,"The beta_cl lambda slot is a source-normalization amplifier, not a universal disc-spin constant.",False,ugc12506_beta_closure_lambda_definition_conversion_gate_not_endpoint
+C3_residual_blind_source,Is the Marr value source-side and residual-blind?,PASS_CONTEXT,The value is literature source context and does not use the endpoint residual.,False,ugc12506_beta_closure_lambda_definition_conversion_gate_not_endpoint
+C4_conversion_rule_available,Is there a predeclared disc-to-halo/envelope conversion rule?,FAIL,No residual-blind conversion functional from disc lambda to beta_cl lambda_spin is accepted.,False,ugc12506_beta_closure_lambda_definition_conversion_gate_not_endpoint

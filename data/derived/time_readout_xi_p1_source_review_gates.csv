@@ -1,0 +1,5 @@
+gate_id,gate_status,required_condition,blocked_by,claim_boundary
+XI_P1_G1_SOURCE_ONLY,OPEN,"Every Xi_t observable must be filled from source-side morphology, path, or clock/readout evidence before endpoint scoring.",no accepted Xi_t source manifest yet,time_readout_xi_p1_source_review_not_endpoint
+XI_P1_G2_NO_DOUBLE_COUNT,OPEN,The Xi_t proxy must be shown distinct from the additive morphology/projection kernel already used for the galaxy.,NGC4088 and UGC12506 need separation of clock/readout phase from spatial morphology amplitude,time_readout_xi_p1_source_review_not_endpoint
+XI_P1_G3_NORMALIZATION_FREEZE,OPEN,"epsilon_t normalization and cap must be frozen from source rules, not residual improvement.","current epsilon_0 is diagnostic source-load proxy, not an accepted theory/source law",time_readout_xi_p1_source_review_not_endpoint
+XI_P1_G4_NULL_ALLOWED,PASS_RECORDED,The protocol must allow Xi_t=1 for galaxies without independent time-readout evidence.,none; P3 and P2 rows already enforce this policy,time_readout_xi_p1_source_review_not_endpoint

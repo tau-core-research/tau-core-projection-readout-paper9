@@ -1,0 +1,4 @@
+galaxy,route,rmse_km_s,status_after_certificate,reason,endpoint_scores_allowed,endpoint_validation_claim,claim_boundary
+NGC4088,accepted_warp_history,11.619037989026095,endpoint_readable_caveated_control,This route contains the accepted source-supported additive warp/history information.,True,False,ngc4088_time_projection_nonoverlap_certificate_not_endpoint
+NGC4088,clock_only_control,10.495900828483723,diagnostic_control_only,Clock-only signal is informative but not independent endpoint evidence.,False,False,ngc4088_time_projection_nonoverlap_certificate_not_endpoint
+NGC4088,additive_plus_clock_stress,8.38351954312874,stress_control_double_count_blocked,Lower RMSE cannot be promoted because orthogonal clock load is zero.,False,False,ngc4088_time_projection_nonoverlap_certificate_not_endpoint

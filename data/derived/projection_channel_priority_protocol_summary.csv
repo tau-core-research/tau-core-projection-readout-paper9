@@ -1,0 +1,2 @@
+protocol_id,main_rule,formal_test,reviewer_guardrail,uses_vobs_or_residual,endpoint_scores_allowed,claim_boundary
+PROJECTION_CHANNEL_SOURCE_TOKEN_PRIORITY_V1,assign each source token to the most direct predeclared readout channel; time projection receives only independent clock/readout content or quotient-surviving remainder,"time endpoint load is carried by T/A, where A is the active morphology/projection source subspace and T is the time-projection source ledger",endpoint RMSE cannot decide channel priority,False,False,projection_channel_priority_protocol_not_endpoint

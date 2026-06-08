@@ -1,0 +1,2 @@
+source_review_status,p1_targets,n_required_review_items,accepted_xi_t_manifests,endpoint_scores_allowed,next_step,claim_boundary
+XI_T_P1_SOURCE_REVIEW_WORKLIST_CREATED_NO_ENDPOINT,NGC4088; UGC12506,4,0,False,"fill P1 source observables, freeze epsilon_t/K_t rules, then run a predeclared Xi_t ablation endpoint",time_readout_xi_p1_source_review_not_endpoint

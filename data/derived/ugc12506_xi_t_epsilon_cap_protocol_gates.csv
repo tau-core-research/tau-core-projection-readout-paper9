@@ -1,0 +1,5 @@
+galaxy,gate_id,gate_status,evidence,remaining_obligation,endpoint_scores_allowed,claim_boundary
+UGC12506,U12506_CAP_G1_BOUND_DERIVED,PASS_CONDITIONAL,eta_quad=0.02; epsilon_linear_bound=0.04,"eta_quad is a protocol tolerance, not a measured physical constant",False,ugc12506_xi_t_epsilon_cap_protocol_gate_not_endpoint
+UGC12506,U12506_CAP_G2_CAP_WITHIN_BOUND,PASS,epsilon_cap=0.035 < 0.04; safety_fraction=0.875,none for current protocol freeze,False,ugc12506_xi_t_epsilon_cap_protocol_gate_not_endpoint
+UGC12506,U12506_CAP_G3_CURRENT_EPSILON_WITHIN_CAP,PASS,epsilon_t=0.0238438; gamma_clock=0.681253,none for source-shell replay,False,ugc12506_xi_t_epsilon_cap_protocol_gate_not_endpoint
+UGC12506,U12506_CAP_G4_NOT_UNIVERSAL,PASS_RECORDED,cap is frozen as conservative protocol constant only,derive deeper Tau-side clock cap before claiming universal law,False,ugc12506_xi_t_epsilon_cap_protocol_gate_not_endpoint

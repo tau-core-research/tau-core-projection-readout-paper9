@@ -1,0 +1,6 @@
+gate_id,gate_status,gate_text,endpoint_allowed,galaxy,claim_boundary
+U12506_SEP_G1_FORMULA_ROLE,PASS_SEPARATED,Theta_morph is additive in v^2; Xi_t is a multiplicative clock/readout factor.,False,UGC12506,ugc12506_theta_xit_channels_separated_not_combined_endpoint
+U12506_SEP_G2_CLAIM_BOUNDARY,PASS_RECORDED,Theta_morph is diagnostic; Xi_t is caveated interval/control.,False,UGC12506,ugc12506_theta_xit_channels_separated_not_combined_endpoint
+U12506_SEP_G3_SOURCE_OVERLAP,BLOCK_COMBINED_ENDPOINT,High-spin/envelope/asymmetry context overlaps across routes; no combined endpoint without non-overlap manifest.,False,UGC12506,ugc12506_theta_xit_channels_separated_not_combined_endpoint
+U12506_SEP_G4_PATH_TERM,BLOCK_PATH_CLOCK_ENDPOINT,path term fixed to zero unless later source path review establishes it,False,UGC12506,ugc12506_theta_xit_channels_separated_not_combined_endpoint
+U12506_SEP_G5_FORBIDDEN_INPUTS,PASS,Separation gate reads only source/control summaries and does not select a curve-saving amplitude.,False,UGC12506,ugc12506_theta_xit_channels_separated_not_combined_endpoint

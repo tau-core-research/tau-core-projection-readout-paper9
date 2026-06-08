@@ -1,0 +1,6 @@
+example_token,direct_assignment,time_assignment,ngc4088_status,uses_vobs_or_residual,claim_boundary
+warp onset / x_w,warp/history morphology kernel,blocked unless separate settling-clock evidence exists,assigned to additive warp/history; Xi_t overlap,False,projection_channel_priority_protocol_not_endpoint
+q_warp / warp strength,warp/history source-strength factor,blocked as direct source-strength overlap,assigned to additive warp/history; Xi_t overlap,False,projection_channel_priority_protocol_not_endpoint
+position-angle/orientation mismatch,observer/path or warp geometry projection,control unless source proves clock-slice mismatch,shared warp geometry; no orthogonal clock load,False,projection_channel_priority_protocol_not_endpoint
+component lag or settling state independent of warp,not consumed by shape alone if separately measured,candidate clock/readout channel,not currently available as non-overlapping source token,False,projection_channel_priority_protocol_not_endpoint
+line-of-sight foreground/path environment,path projection only if source-native causal-path evidence exists,candidate observer/path clock channel,not primary for current route,False,projection_channel_priority_protocol_not_endpoint

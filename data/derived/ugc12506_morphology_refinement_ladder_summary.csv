@@ -1,0 +1,8 @@
+step,model_id,plot_label,rmse_km_s,status,uses_vobs_for_model_construction,endpoint_validation_claim
+1,BARYONIC_050_CARRIER,baryonic carrier,116.02345816251234,baseline/control carrier,False,False
+2,SOURCE_ENVELOPE_SUPPORT,source envelope,102.4787520989868,source-frozen envelope branch,False,False
+3,SOURCE_NATIVE_NFW_HSE,source-native NFW/HSE,77.54088578927833,source-native mass/envelope closure,False,False
+4,PROJECTION_HISTORY,projection/history,69.17884679750473,observer/projection-history increment,False,False
+5,THETA_MORPH_PHASE,$\Theta_{\rm morph}$,64.11917934006436,Tau morphology-state phase diagnostic,False,False
+6,THETA_XIT_CAP_CONTROL,$\Theta_{\rm morph}+\Xi_t$ cap,60.30868481871186,ledger-strict combined control,False,False
+7,SOURCE_BETA_CLOSURE_CANDIDATE,source $\beta_{\rm cl}$ closure,7.672075678103618,"post-diagnostic source-candidate, not endpoint",False,False

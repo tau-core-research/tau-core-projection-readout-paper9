@@ -1,0 +1,5 @@
+gate_id,gate_status,evidence,remaining_obligation,galaxy,endpoint_scores_allowed,claim_boundary
+U12506_T5_G1_TABLE_PRESENT,PASS,Table 5 dark matter halo properties extracted from local source text,manual independent review recommended before accepted endpoint use,UGC12506,False,ugc12506_table5_halo_parameter_extraction_source_native_not_endpoint
+U12506_T5_G2_NFW_PREFERENCE_NUMERIC,PASS,"chi2_nfw=0.21, chi2_iso=0.54",none for replay,UGC12506,False,ugc12506_table5_halo_parameter_extraction_source_native_not_endpoint
+U12506_T5_G3_SOURCE_NATIVE_C_R200,PASS,"c=14.87±0.6, R200=123.0±1.5 kpc",propagate uncertainty later,UGC12506,False,ugc12506_table5_halo_parameter_extraction_source_native_not_endpoint
+U12506_T5_G4_NO_RESIDUAL_USE,PASS,extraction uses published source table only,vobs enters only downstream scoring,UGC12506,False,ugc12506_table5_halo_parameter_extraction_source_native_not_endpoint

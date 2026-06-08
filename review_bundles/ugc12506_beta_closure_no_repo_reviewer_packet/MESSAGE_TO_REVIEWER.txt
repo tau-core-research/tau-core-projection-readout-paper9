@@ -1,0 +1,59 @@
+Subject: Independent UGC12506 beta-closure source-review request
+
+Dear Reviewer,
+
+Thank you for reviewing this UGC12506 beta-closure transfer packet. You do not
+need access to the repository. The ZIP contains all fields needed for this
+review and two fillable CSV files in the `response/` directory.
+
+What we need
+------------
+Please fill exactly these two files:
+
+1. response/ugc12506_beta_closure_spin_proxy_review_response.csv
+2. response/ugc12506_beta_closure_carrier_review_response.csv
+
+The review is residual-blind. Please use only the supplied source/protocol
+materials and any independent source-side astrophysical judgement you are
+comfortable documenting. Do not use rotation-curve residuals, endpoint scores,
+RMSE comparisons, or a post-hoc desire to improve UGC12506.
+
+Decision 1: spin normalization route
+------------------------------------
+Choose whether the source-side evidence supports one of the reviewable routes:
+
+- EXPOSURE_PROXY with weight_rule_decision=ACCEPT_EXPOSURE_RULE
+- BULLOCK_DISK_CONVERSION with weight_rule_decision=ACCEPT_BULLOCK_CONVERSION
+
+If neither is acceptable, reject or request changes in the CSV. Do not invent a
+new route inside the response unless you clearly mark it as required_changes.
+
+Decision 2: velocity-squared carrier
+------------------------------------
+Choose whether the minimal baryonic stress carrier is acceptable:
+
+- selected_carrier_id=BARYONIC_050_FAST_PACKET
+- carrier_route_decision=ACCEPT_BARYONIC_STRESS_CARRIER
+- li2020_policy_decision=KEEP_LI2020_CONTROL_ONLY
+
+If it is not acceptable, reject it or require a source-native carrier.
+
+Hard safety requirements
+------------------------
+For both responses:
+
+- forbidden_inputs_used must be False
+- endpoint_scores_allowed must be False
+- uses_vobs_or_residual must be False
+- reviewer_or_method_id must identify you or your review method
+- review_timestamp_utc must be filled
+- review_rationale and source_inputs_used must be non-placeholder text
+
+The examples in `supporting_ledgers/` are examples only. Please do not return
+the example-only rows as active decisions.
+
+Claim boundary
+--------------
+Your response does not validate Tau Core and does not authorize a paper claim by
+itself. It only decides whether the predeclared UGC12506 beta-closure transfer
+route may pass into the already-built post-review scoring launcher.

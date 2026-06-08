@@ -1,0 +1,4 @@
+gate_id,gate_status,evidence,remaining_obligation,galaxy,endpoint_scores_allowed,uses_vobs_or_residual,claim_boundary
+U12506_XIT_REVIEW_G1_PACKET_READY,PASS_PACKET_READY_RESPONSE_PENDING,"source packet, obligations, response template, forbidden inputs, and hashes written",obtain independent review response,UGC12506,False,False,ugc12506_xi_t_source_review_packet_not_endpoint
+U12506_XIT_REVIEW_G2_FORBIDDEN_INPUTS,PASS_GUARDRAILS_RECORDED,"rotation residuals, baseline ranks, wrong-family scores, cap changes, and foreground rescue are forbidden",enforce in response intake validator,UGC12506,False,False,ugc12506_xi_t_source_review_packet_not_endpoint
+U12506_XIT_REVIEW_G3_ENDPOINT,BLOCKED,review response pending and accepted-manifest gate not ready,do not score endpoint,UGC12506,False,False,ugc12506_xi_t_source_review_packet_not_endpoint

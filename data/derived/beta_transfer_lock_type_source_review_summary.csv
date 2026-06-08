@@ -1,0 +1,2 @@
+lock_type_review_status,n_galaxies_reviewed,n_source_evidence_rows,n_pure_beta_rejections,uses_vobs_or_residual_for_lock_type,replay_allowed_now,endpoint_scores_allowed,next_action,claim_boundary
+LOCK_TYPE_REVIEW_BUILT_SOURCE_REJECTS_PURE_BETA_FOR_NEGATIVE_TRIGGERS,2,6,2,False,False,False,"derive source-frozen mixed vertical/projection formulas for NGC0891 and NGC4217, then run replay only after formula freeze",beta_transfer_lock_type_source_review_residual_blind_not_replay

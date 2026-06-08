@@ -1,0 +1,1339 @@
+arXiv:1407.1744v2 [astro-ph.GA] 22 Jul 2014
+
+HIghMass - High HI Mass, HI-rich Galaxies at z∼ 0
+High-Resolution VLA Imaging of UGC 9037 and UGC 12506
+Gregory Hallenbeck1 , Shan Huang1,2 , Kristine Spekkens3 , Martha P. Haynes1 , Riccardo
+Giovanelli1 , Elizabeth A. K. Adams1,4 , Jarle Brinchmann5 , Jayaram Chengalur6 , Leslie K.
+Hunt7 , Karen L. Masters8,9 , Amélie Saintonge10
+ABSTRACT
+We present resolved Hi observations of two galaxies, UGC 9037 and UGC 12506,
+members of a rare subset of galaxies detected by the ALFALFA extragalactic
+Hi survey characterized by high Hi mass and high gas fraction for their stellar
+masses. Both of these galaxies have M∗ > 1010 M⊙ and MHI > M∗ , as well as
+typical star formation rates for their stellar masses. How can such galaxies have
+avoided consuming their massive gas reservoirs? From gas kinematics, stability,
+star formation, and dark matter distributions of the two galaxies, we infer two
+radically different histories. UGC 9037 has high central Hi surface density (>
+1
+
+Center for Radiophysics and Space Research, Space Sciences Building, Cornell University, Ithaca, NY
+14853. e-mail: ghallenbeck@astro.cornell.edu, haynes@astro.cornell.edu, riccardo@astro.cornell.edu
+2
+
+Academia Sinica, Institute of Astronomy & Astrophysics, P.O. Box 23-141, Taipei 10617, Taiwan. e-mail:
+shan@asiaa.sinica.edu.tw
+3
+
+Royal Military College of Canada, Department of Physics, PO Box 17000, Station Forces, Kingston,
+Ontario, Canada K7K 7B4. e-mail: Kristine.Spekkens@rmc.ca
+4
+
+ASTRON/Netherlands Institute for Radio Astronomy, Oude Hoogeveensedijk 4, 7991 PD Dwingeloo,
+The Netherlands. e-mail: adams@astron.nl
+5
+
+Leiden Observatory, Leiden University, P.O. Box 9513, 2300 RA Leiden, Netherlands e-mail:
+jarle@strw.leidenuniv.nl
+6
+
+National Centre for Radio Astrophysics, Tata Institute for Fundamental Research, Pune 411 007, India.
+e-mail: chengalu@ncra.tifr.res.in
+7
+
+INAF-Osservatorio Astrofisico di Arcetri, Largo E. Fermi 5, I-50125, Firenze, Italy.
+hunt@arcetri.inaf.it
+
+e-mail:
+
+8
+
+Institute of Cosmology and Gravitation, Dennis Sciama Building, Burnaby Road, Portsmouth POI 3FX.
+e-mail: Karen.Masters@port.ac.uk
+9
+10
+
+South East Physics Network, www.sepnet.ac.uk
+
+University College London Dept. of Physics & Astronomy, Kathleen Lonsdale Building, Gower Place,
+London, WC1E 6BT, United Kingdom. e-mail: a.saintonge@ucl.ac.uk
+
+–2–
+10 M⊙ pc−2 ). Its gas at most radii appears to be marginally unstable with
+non-circular flows across the disk. These properties are consistent with UGC
+9037 having recently acquired its gas and that it will soon undergo major star
+formation. UGC 12506 has low surface densities of Hi, and its gas is stable
+over most of the disk. We predict its gas to be Hi-dominated at all except the
+smallest radii. We claim a very high dark matter halo spin parameter for UGC
+12506 (λ = 0.15), suggesting that its gas is older, and has never undergone a
+period of star formation significant enough to consume the bulk of its gas.
+Subject headings: galaxies: evolution — galaxies: individual — galaxies: spiral
+— radio lines: galaxies
+
+1.
+
+Introduction
+
+In the standard hierarchical clustering framework of ΛCDM cosmology, smaller halos form
+first, with dark matter halos merging to produce progressively larger structures (for a recent
+review, see Baugh 2006; Benson 2010). Galaxies form as these halos accrete gas: either
+shocked as it falls into the halos in a so-called ‘hot-mode’ accretion or along cold filaments
+of gas which never shock in ‘cold-mode’ accretion (e.g. Kereš et al. 2005).
+Observationally, in a mechanism known as ‘down-sizing’, at high redshifts the most
+massive galaxies are the most efficient at forming stars (Cowie et al. 1996), with bursts of
+star formation triggered via mergers of gas-rich disks at high redshift. By z ∼ 0 galaxies
+with high stellar masses tend to have relatively low gas fractions (GF≡MHI /M∗ ) compared
+to less massive galaxies (e.g. Catinella et al. 2010; Cortese et al. 2011; Huang et al. 2012a).
+For an optically selected field galaxy sample with M∗ > 1010 M⊙ , typical gas fractions are
+0.01 < GF < 0.1 (e.g. Cortese et al. 2011). At these stellar masses, significantly more gasrich galaxies are expected to be quite rare, as was found in previous blind Hi surveys such
+as HIPASS (Zwaan et al. 2005).
+One of the most surprising results of ALFALFA, the Arecibo Legacy Fast ALFA survey
+(Giovanelli et al. 2005) is the detection of a significant population of massive galaxies which
+are also extremely gas rich (Martin et al. 2010; Haynes et al. 2011). From ALFALFA, we
+have identified the HIghMass sample: 34 galaxies with high Hi mass (MHI & 1010 M⊙ ) which
+are also the most gas-rich (GF & 0.4) for their stellar masses. Over half of this sample
+has GF > 1. A complete definition of the HIghMass sample, along with discussion of the
+stellar, star formation, and global Hi properties can be found in Huang et al. (2014). How
+do such massive galaxies acquire and maintain substantial reservoirs of gas? We consider
+
+–3–
+two possibilities.
+One possibility is that the gas is recently acquired. This recent gas may be from a
+‘galactic fountain’ of gas previously ejected by supernovae raining back down (Shapiro &
+Field 1976; Bregman 1980), from accretion of many small companion galaxies, or from
+accretion of pristine gas along filaments. It is not clear what percentage of the gas comes
+from each source, although simulations suggest that the majority of gas comes from cooling
+previously ejected gas, with a smaller—but not negligible—amount coming from cold or hotmode accretion (Fraternali & Binney 2006; Fraternali & Binney 2008; Oppenheimer et al.
+2010). Regardless of whether such processes dominate, such infalls do not appear to have
+strong short-scale star formation or stability effects on galaxies but over long times refuel
+the disk’s potential for star formation (Hopkins et al. 2013). Unfortunately, these effects
+are difficult to find observationally. Direct observation finds gas inflow rates of Ṁ ∼ 0.2M⊙
+yr−1 in local spiral galaxies, a factor of 5 − 10 less than is required to sustain star formation
+(Sancisi et al. 2008). However, rates of both Hi and unobserved ionized gas Ṁ ∼ 1 − 3 M⊙
+yr−1 have been indirectly inferred (Fraternali & Binney 2008).
+The second possibility is that the gas is old, but has not been able to form stars. Answers
+may lie in the HIghMass galaxies’ spin parameter λ (Peebles 1971), a dimensionless measure
+of the halo’s angular momentum and oft-cited governing mechanism of a galaxy’s evolution.
+Simulations and theory predict that at fixed total mass, galaxies in the local universe with
+higher spin parameters are bluer, have lower surface brightness, and are more gas-rich (e.g.
+Jimenez et al. 1998; Mo et al. 1998; Boissier & Prantzos 2000; Macciò et al. 2007). Unfortunately, the dynamics of the dark matter content of a galaxy are not directly observable, and a
+number of assumptions are required about the relationship between the spin parameter of the
+galactic disk (λd ) and that of the halo; however, this overall trend appears to be confirmed
+for inferred spin parameters (e.g. Hernandez et al. 2007; Cervantes-Sodi & Hernández 2009;
+Huang et al. 2012a). If the HIghMass galaxies have unusually high spin parameters, then
+this gas may be be unable to efficiently form stars.
+This paper presents a detailed view of two HIghMass galaxies, UGC 9037 and UGC
+12506. Even among the HIghMass galaxies, these have unusually massive Hi reservoirs
+(∼ 1010.5 M⊙ ) and high gas fraction (GF > 1). They have a low star formation efficiency
+(SFE≡SFR/Mgas ≈ 10−10 yr−1 ), typical of the HIghMass sample. We make use of the the
+Karl G. Jansky Very Large Array (VLA) of the National Radio Astronomy Observatory
+(NRAO)1 to make high-resolution (6′′ or ∼2.9 kpc at 100 Mpc; 7 km s−1 velocity resolution)
+1
+
+The National Radio Astronomy Observatory is a facility of the National Science Foundation operated
+under cooperative agreement by Associated Universities, Inc.
+
+–4–
+observations of these two galaxies’ Hi content and kinematics. This is combined with the
+Sloan Digital Sky Survey (SDSS) and Hα observations obtained at Kitt Peak National Observatory (KPNO) to identify regions of active massive star formation activity and to infer
+the dark matter dynamics of the two galaxies.
+Our data reduction methods are found in §2. Details of our analysis methods, including
+a discussion of how we fit various dark matter halo properties and star formation threshold
+criteria, are found in §3. The results of our observations are discussed in §4. We present our
+hypotheses for the history of the two galaxies and why they have such high gas masses and
+gas fractions in §5, and summarize in §6.
+2.
+
+Observations and Data Reduction
+
+The ALFALFA-derived Hi properties, along with optical and UV-derived properties of UGC
+9037 and UGC 12506, are summarized in Table 1; parameters derived from the resolved VLA
+maps can be found in Table 2. Further discussion of the single dish observations and the
+derivation of Hi properties can be found in Giovanelli et al. (2005) and Haynes et al. (2011).
+Global stellar masses and star formation rates, including corrections for galactic and internal
+extinction, have been derived for the entire ALFALFA population (Huang et al. 2012a),
+following the method of Salim et al. (2007). A detailed discussion, including limitations of
+this method can be found in Huang et al. (2012b).
+
+2.1.
+
+HI Synthesis Calibration and Data Cubes
+
+Hi imaging observations were performed using the VLA from November of 2011 to June of
+2012 in the B, C, and D configurations (9.5, 4, and 2 hour observations, respectively) as
+part of a larger campaign involving 10 HIghMass galaxies. Because of technical limitations
+during the VLA upgrade, observations were performed in multiple spectral windows which
+were later combined to produce a single 8.5 MHz wide window. Each channel had a native
+width of 1.7 km s−1 later smoothed to 7 km s−1 . The full bandwidth of this combined window
+is ∼ 1800 km s−1 , enough to both completely encompass each galaxy’s Hi emission and to
+fully determine any continuum emission.
+Flagging of the visibilities, calibration, and continuum subtraction was performed using
+standard CASA2 routines. We produce data cubes using the CASA task clean with a Briggs
+2
+
+The Common Astronomy Software Applications package is under development by the NRAO.
+
+–5–
+robustness weighting of 1.0 and the multi-scale clean option. Traditional clean algorithms
+model the source as a collection of point sources; as we expect the Hi to be quite extended,
+this is a poor assumption. We adopt instead the multi-scale clean method, which models
+the source as a collection of point sources along with Gaussians of varying sizes (usually the
+beam width and a few times the size of the beam; Cornwell 2008). In addition to this being
+a more physical model of the distribution of the Hi emission, multi-scale clean is shown to
+reduce effects related to over- and under-cleaning the image cubes (Rich et al. 2008). The
+final noise values of both the data cubes and the flux maps, clean beam sizes, and velocity
+resolution for the observations are presented in Table 3.
+
+2.2.
+
+Maps and Rotation Curves
+
+Moment maps, rotation curves, and Hi density profiles were produced using GIPSY3 . Integrated flux maps (also known as moment 0 maps) give a quick overview of the spatial
+distribution. In order to reduce the impact of noise, we produce them by only summing over
+the regions in each channel where emission is > 3σ. Velocity fields give a quick overview
+of the rotational structure of the galaxy; we produce the standard ‘moment 1’ maps, an
+intensity-weighted velocity average at each sky position.
+For UGC 9037, which is moderately inclined, we decompose the rotational structure seen
+in the velocity field by fitting a tilted-ring model using rotcur (Begeman 1989). This model
+assumes that a galaxy can be decomposed into a series of concentric rings, each of which
+may have independent inclinations, position angles, rotational velocity, and radial velocities.
+We choose each ring to have a width of half the beam (3′′ ). Because the number of free
+parameters in the fit is very large (4 per ring plus central position and systemic velocity),
+a simultaneous fit is intractable. We avoid this problem by running rotcur iteratively,
+keeping different parameters fixed each time. Parameter uncertainties for position angle and
+inclination are formal errors found by varying the parameters from the values which minimize
+χ2 . For the rotational and expansion velocities, we use the residual velocity dispersion in
+each ring to estimate the uncertainty, which tends to dominate over the formal uncertainty.
+At high disk inclinations (i & 80◦ ) as observed in UGC 12506, each line of sight through
+the galaxy will cross structures at multiple velocities, strongly skewing the line profiles.
+Rotation curves from velocity fields systematically underestimate the rotational velocities.
+For such galaxies, the usual method is to fit to the ‘envelope,’ the highest velocities observed
+at each position observed in a position-velocity (PV) diagram, either by fitting gaussians
+3
+
+The Groningen Image Processing SYstem was developed at the Kapteyn Astronomical Institute.
+
+–6–
+or tracing a particular isophote (Sancisi & Allen 1979; Sofue & Rubin 2001). We use the
+velocity field and rotcur to estimate a single inclination and position angle for the galaxy,
+and take a 20′′ wide slice along the major axis of the galaxy to produce a position-velocity
+field. At each position along the PV diagram, we extract a spectrum and fit a 3rd order
+Gauss-Hermite polynomial. The final rotation curve is the position for which the integrated
+area under the curve is 3.3% from either the approaching or receding edge. For a gaussian fit
+(which our fit reduces to for a skew parameter of 0), this is equivalent to the 40% isophote,
+a commonly chosen value. Uncertainties are taken to be half the difference between the
+approaching and receding rotation curves. The actual area chosen has a relatively small
+effect on the fit: our fits are consistent within errors with those produced by using 1% to 8%
+of the total area.
+
+2.3.
+
+Comparison with ALFALFA Spectra
+
+As global spectra and spectra-derived quantities are the primary data products of ALFALFA,
+we use these to evaluate the quality of our VLA observations, determine whether significant
+flux was missed, and double-check our data reduction approach. Figure 1 shows our global
+VLA spectra for UGC 9037 and UGC 12506. The spectra were produced by integrating
+the data cubes where the flux map indicates that significant (> 3σ) emission exists. The
+single-dish ALFALFA spectra from the Hi archive4 are overplotted. Qualitatively, The VLA
+spectrum of UGC 12506 closely matches that from ALFALFA. The one for UGC 9037 is less
+well-matched: the there is significantly more emission in the VLA spectrum compared to the
+ALFALFA spectrum, particularly in the blueshifted horn of the profile. We do not believe
+that this asymmetry is real and thus originates either from the higher noise characteristics of
+the VLA spectrum, or from the uncertainties in the overall flux scale in the VLA observations.
+Table 4 contains the fitted total integrated fluxes, velocity widths, and systemic velocities of the galaxies from the VLA and ALFALFA observations. Discussions of how
+fluxes and line widths for ALFALFA are derived can be found in Giovanelli et al. (2005)
+and Haynes et al. (2011). We use the same method, except that we correct for instrumental
+broadening using the relations derived by Springob et al. (2005), which is not specific to the
+particular correlator setup of ALFALFA. All errors reported are 1-σ uncertainties using standard propagation of uncertainties, assuming that the spectral rms is the dominant source of
+error. A qualitative comparison shows that there are no detectable differences between the
+spectra for UGC 12506 from ALFALFA and the VLA (. 1σ). For UGC 9037, unsurprisingly,
+4
+
+http://arecibo.tc.cornell.edu/hiarchive/alfalfa/default.php
+
+–7–
+the two spectra match more poorly, with the systemic velocity and W50 values being only
+in reasonable agreement (. 2σ). The excess emission observed in UGC 9037 is such that
+there is overall 9% more integrated flux in the VLA spectrum of this galaxy compared to
+the ALFALFA spectrum, a 3σ difference.
+
+3.
+3.1.
+
+Analysis
+Mass Models
+
+3.1.1. HI and Helium
+Hi gas profiles are calculated using the GIPSY task ellint, which integrates the moment
+0 map using the tilted ring fit. The gas is assumed to be in an infinitely thin disk, and so
+face-on gas surface densities are simply a factor of cos i smaller than the observed values. The
+derived gas surface densities are largely insensitive to the exact tilted ring fit parameters. For
+UGC 12506, which is highly inclined, we use the Lucy-Richardson deconvolution (Lucy 1974;
+Warmels 1988; GIPSY task radial). This method was specifically designed for galaxies
+which are only resolved along the major axis. Briefly, this method involves first summing
+the intensity map along the minor axis, reducing the observed intensities to a one dimensional
+distribution. A model of axisymmetric, uniform density, coplanar rings is then computed,
+taking into account that at each line of sight, multiple rings are contributing to the observed
+intensities. This model is iteratively changed until it matches the observed distribution. The
+final densities do not require any estimate of the inclination of the galaxy, only a kinematic
+center and position angle.
+We account for Helium by multiplying the Hi gas mass by 1.33 to produce a total
+atomic gas mass. As the HIghMass galaxies as a whole have abnormally low star formation
+rates for their Hi gas masses (Huang et al. 2014), it is unlikely that they significant enough
+H2 reservoirs to affect the rotation or gas stability in these galaxies. As a rough estimate,
+assuming a typical massive spiral has an H2 gas depletion timescale of tdep ≡ MH2 / SFR
+=∼ 109 yr (e.g. Leroy et al. 2008; Saintonge et al. 2011), then the H2 makes up only 13%
+(for UGC 9037) and 4% (for UGC 12506) of the total baryonic mass of the galaxies.
+
+3.1.2. Stellar Mass
+Compared to our global stellar mass estimates (Huang et al. 2012a; Huang et al. 2012b),
+finding from optical photometry a robust measure of how a galaxy’s stellar mass distribution
+
+–8–
+is more complex. Among other considerations, it requires an understanding of how the
+metallicity and extinction change with radius. However, our primary interest in a stellar
+mass density model is in determining its contribution to rotation curves in order to model
+each galaxy’s dark matter content. Since both UGC 9037 and UGC 12506 have MHI >
+M∗ , the uncertainty on the distribution of stellar mass is less of a factor than correctly
+estimating the Hi plus helium content. As stellar mass is more concentrated towards the
+center of galaxies compared to the gas, the accuracy of the local stellar mass model is
+less important than the total stellar mass. To that end, we roughly approximate stellar
+mass using the following method: elliptical apertures are fit to the optical SDSS image and
+corrected for Galactic extinction. Internal extinction is ignored because its variation with
+radius is unknown. Then, the magnitudes are converted into stellar masses using the the
+M∗ /Li and g − r color relations and diet Salpeter initial mass function of Bell et al. (2003).
+The surface densities are deprojected by rescaling the stellar mass surface densities such that
+the total integrated mass is equal to the global value. This procedure assumes that the stars
+are distributed in a infinitely thin disk. We again stress that this method is not intended to
+give the most accurate distribution of stellar mass, but rather to give a rough estimate of
+where the bulk of the stellar mass is located.
+
+3.1.3. Dark Matter
+We use the GIPSY task rotmas to fit dark matter distributions to rotation curves. We
+model galaxies as composed of a gaseous disk, a stellar disk, and a dark matter halo. The
+rotmod task calculates the gaseous and stellar contributions to the galaxy rotation, assuming an infinitely thin disk for both. We find that varying models to allow for finite thickness
+of the stellar disk has little or no effect for these two galaxies. The amplitude of rotation
+unaccounted for by the stellar and atomic gas components is ascribed to the dark matter:
+2
+2
+2
+Vobs
+= VHI
++ V∗2 + VDM
+
+(1)
+
+We consider two models of the dark matter. The first is the pseudo-isothermal model, which
+modifies a pure isothermal model (where V is constant at all radii) with a core of constant
+density. It is a two-parameter model, including a core scale length RC and a central density
+ρ0 which sets the asymptotic velocity. The velocity profile it produces is:
+s
+
+
+
+r
+RC
+ISO
+VDM (r) = RC 4πGρ0 1 −
+(2)
+arctan
+r
+RC
+This asymptotically approaches the constant velocity of a pure isothermal halo, with VC ≡
+√
+RC 4πGρ0 . The other profile we use is the Navarro-Frenk-White model (NFW; Navarro et al.
+
+–9–
+1997), which is motivated by distributions of collisionless ΛCDM halos from numerical simulations. It has a velocity profile
+s
+1 ln(1 + cx) − cx/(1 + cx)
+NFW
+(3)
+VDM
+(r) = V200
+x ln(1 + c) − c/(1 + c)
+where c is a parameter giving the central concentration of the halo; only c > 1 corresponds
+to physical models. x ≡ r/R200 , where R200 is a characteristic length scale. V200 is defined
+as V (R200 ) and is fixed for given c and R200 . The NFW profile is thus also a two-parameter
+family.
+
+3.1.4. Spin Parameters
+The spin parameter λ of the dark matter halo is a dimensionless measure of a halo’s angular
+momentum and is defined as (Peebles 1971):
+J |E|1/2
+λ=
+GM 5/2
+
+(4)
+
+where J, E, and M are the halo’s total angular momentum, energy, and mass. One unfortunate problem for anyone hoping to fit a dark matter halo’s spin parameter is that almost
+any λ can fit fixed NFW halo parameters c and R200 or pseudo-isothermal RC and ρ0 . In
+simulations, λ has shown to be only weakly correlated to other halo parameters, with quite
+large spread (Neto et al. 2007; Macciò et al. 2007), and so we cannot simply use our rotation
+curve derived halo properties to constrain the value of λ. Instead, we use a novel method to
+estimate the spin parameter by a more direct calculation, finding J, E, and M in turn.
+To simplify computation, it is often assumed that the coupling between the dark and
+baryonic matter is such that the angular momentum per unit mass j of the dark matter and
+for the baryons jb are equal (e.g. Mo et al. 1998, Boissier & Prantzos 2000). The same is true
+for studies of observed galaxy populations (e.g. Hernandez et al. 2007, Cervantes-Sodi & Hernández
+2009, Huang et al. 2012a), which we desire to compare our results with. As such, these calculations are really tracing the so-called modified spin parameter λ′ = jb /j × λ. For the
+rest of this paper, when we refer to the spin parameter, or λ, we are properly talking about
+the modified spin parameter λ′ . We then calculate the total angular momentum of the dark
+matter halo:
+M X
+J=
+MHI,i Vi ri
+(5)
+MHI i
+under the assumption that the gas traces the baryonic angular momentum per unit mass. We
+could adequately fit tilted rings out to the edge of emission in neither UGC 9037 nor UGC
+
+– 10 –
+12506. However, in both galaxies, the rotation curve has either completely flattened (UGC
+9037) or is very flat (UGC 12506), and so we assume that a constant velocity continues out
+to the edge of the Hi emission.
+We assume that the halos are virialized, and so can estimate their total energy from
+their kinetic energy. As discussed later in §4.4, a pseudo-isothermal dark matter model fits
+both galaxies well. The energy of a pseudo-isothermal dark matter halo can be calculated
+approximately out to large radii (r ≫ RC ), where most of the mass and energy reside. Here
+the pseudo-isothermal model approaches an isothermal halo, which has energy:
+1
+|E| = |T + U| = T ≈ MVC2
+(6)
+2
+where VC is the maximum circular velocity of the halo and M is the total mass of the dark
+matter halo. Using the NFW fit instead of the pseudo-isothermal changes the estimate in
+the total energy by only a few percent, and should have little effect on our final results.
+We estimate our total halo masses using the results of Papastergis et al. (2012). Those
+authors use abundance matching to relate each observed galaxy’s baryonic mass (defined
+as stellar and Hi) to a simulated halo mass: the galaxies with the highest baryonic masses
+are matched with the most massive halos, and so on. In this way, every halo mass can be
+associated with an average baryonic mass of the galaxy it hosts.
+The final dark matter spin parameters calculated for UGC 9037 and UGC 12506 can be
+found in Table 5. We also use the above method to calculate spin parameters of dark matter
+halos for the THINGS galaxies in de Blok et al. (2008), using their rotation curves and mass
+models. The THINGS galaxies act as a reference sample of more ‘typical’ local galaxies than
+the HIghMass sample. They verify the effectiveness of the above method to calculate spin
+parameters via comparison to spin parameters empirically-derived from optical properties
+(e.g. Hernandez et al. 2007, Huang et al. 2012a) or from simulation (e.g. Shaw et al. 2006).
+Discussion of spin parameters and evaluation of this method is presented in §4.4.
+3.2.
+
+Stability and Star Formation Thresholds
+
+We use three theoretical measures to investigate where star formation is expected to occur, in
+order to compare with our Hα imaging: the Toomre Q parameter (Toomre 1964), a threshold
+motivated by galactic shear (Hunter et al. 1998), and a model by Schaye (2004) designed to
+identify where in a galaxy a cold phase of Hi can form. We also consider the gas surface
+densities at which Hi becomes saturated and H2 is observationally found to dominate over
+Hi(Martin & Kennicutt 2001). Application of these methods to the densities and rotation
+curves of UGC 9037 and UGC 12506 is presented in §4.3.
+
+– 11 –
+An oft-cited criterion for star formation is the Toomre Q parameter. For a thin, differentially rotating disk of pure gas or stars, the dynamics are dominated by pressure, self-gravity,
+and angular momentum. The gas is stable or unstable to radial (i.e. ring-like) perturbations
+for certain ranges of surface density and rotational velocities. The condition for stability is
+(Toomre 1964):
+σg κ
+≥1
+(7)
+Qg =
+πGΣg
+where σg is the velocity dispersion in the gas, G is Newton’s gravitational constant, and Σg
+is the deprojected surface density of the gas. We take the gas velocity dispersion to be the
+constant σg = 11 km s−1 found by (Leroy et al. 2008) from their relatively face-on galaxies.
+Our galaxies both have i > 60◦ , making our own measurements of σg poor at best. κ is the
+epicyclic frequency:
+2Ω d 2 
+κ2 =
+r Ω
+(8)
+r dr
+where r is the distance from the center of the galaxy and Ω(r) is the angular speed at radius
+r.
+Beyond just gas, one can define analogous Q∗ , QH2 and so on for the various components
+of the disk. Many prescriptions exist for combining these various Qi parameters into one
+effective Q. Perhaps the best known is the so-called Wang-Silk approximation, where the
+−1
+instabilities of the phases add linearly, or Q−1 = Q−1
+(Wang & Silk 1994). More
+g + Q∗
+rigorous prescriptions are given by Rafikov (2001), who take into account the wavenumber of
+such perturbations, as well as Romeo & Wiegert (2011) and refinements in Romeo & Falstad
+(2013) which weight each of the Qi based on both the vertical and radial velocity dispersion
+of each component of the galactic disk. We have found, for each of these three prescriptions,
+that the Qg term dominates for our galaxies, and so we approximate Q ≈ Qg . In particular,
+we rearrange Equation (7) to express the instability as a critical density above which the gas
+is unstable against radial flows (Kennicutt 1989):
+ΣQ = αQ
+
+σg κ
+πG
+
+(9)
+
+where αQ is a dimensionless parameter equal to the average h1/Qi where star formation
+occurs; again, αQ = 1 in the ideal case. Many tests of this parameter have been done
+in the literature, with the consensus being that star formation occurs in regions for which
+αQ < 1. As a few examples, Kennicutt (1989)5 found αQ = 0.63, Martin & Kennicutt (2001)
+found αQ = 0.69, though they both assume σg = 6 km s−1 , which more closely matches the
+dispersion of the cold phase alone. Changing this assumption to our own σg = 11 km s−1
+5
+
+They report that αQ = 0.67, but they have a slightly different definition of ΣQ .
+
+– 12 –
+yields αQ = 0.34 and αQ = 0.38. Leroy et al. (2008) found αQ ≈ 0.4 for their massive
+spiral galaxies, using the same assumptions that we do. We choose αQ = 0.4 as a typical
+‘marginally unstable’ threshold as observed in the literature. The deviation of αQ from unity
+may be an indication that star formation can occur long before the gas is dense enough to
+cause axisymmetric inflow of the gas. Alternatively, other parameters, such as the presence
+of stars (e.g. Jog & Solomon 1984, Jog & Solomon 1992) have significant impacts on the
+stability. This discrepancy may also be due to using global properties, such as the rotation
+curve and averaged gas densities to predict star formation, which is ultimately a local process
+(e.g. Krumholz et al. 2012).
+Hunter et al. (1998) take a different approach to star formation from large-scale collapse
+in the gaseous disk. They examine the case where the Hi clouds lose angular momentum
+along magnetic field lines. In this case, the dominant effect preventing collapse becomes the
+shear in the disk. This critical density can be expressed as:
+ΣA = αA
+
+σg A
+πG
+
+(10)
+
+where αA is an uncertain dimensionless parameter, similar to αQ . A is Oort’s A constant,
+defined as:
+d
+(11)
+A = −0.5r Ω(r)
+dr
+Hunter et al. (1998) chose αA = 2.5 based on a rough argument that perturbations must
+grow by a factor of 100 to be significant, while Schaye (2004) implies αA = 1 at the onset of
+instability. In a sample of 30 nearby spirals, Martin & Kennicutt (2001) suggest αA = 2.0.
+We use αA = 2.5 as a baseline for the maximum required surface density.
+A third approach to star formation, taken by Schaye (2004), is to instead consider the
+regions in the disk where a cold phase of gas and the production of H2 can occur. This cold
+phase will have a lower velocity dispersion, 3 km s−1 < σcold < 6 km s−1 , compared to that
+in the dominant warm phase, σgas = 11 km s−1 , and such a phase has a correspondingly
+lower ΣQ and ΣA . Schaye (2004) derives criteria under which a cold phase can form. These
+criteria can be expressed as:
+ΣS04 ≈ 6.1
+
+Σgas
+M⊙ pc−2
+Σgas + Σ∗
+
+(12)
+
+for an assumed constant metallicity of 0.1 Z⊙ and interstellar flux of ionizing photons 106
+cm−2 s−1 .
+Finally, it has long been observed that Hi surface densities of ∼ 9 − 10 M⊙ pc−2 are
+‘saturated,’ (e.g. Martin & Kennicutt 2001, Bigiel et al. 2008, Leroy et al. 2008) in the local
+
+– 13 –
+universe, and densities exceeding this value are rarely observed; excess gas exists in the
+molecular phase. This does not appear to be a threshold for star formation, only a location
+where the star formation efficiency becomes roughly constant (Leroy et al. 2008).
+
+4.
+4.1.
+
+Results
+
+UGC 9037: Images and Rotation Curve
+
+Figure 2 presents images of UGC 9037 (Huang et al. 2014) in several different bands. At
+the Hubble flow distance of ∼ 89 Mpc (assuming H0 = 70km s−1 Mpc−1 ), each arcsecond
+corresponds to 0.42 kpc, and so with a clean beam of ∼ 6′′ , the VLA observations have a
+resolution of roughly 2.5 kpc. The top left panel is a SDSS optical image, with contours
+from our integrated flux map overlaid. The contours begin at 2σ significance (NHI = 1021
+cm−2 ), and increase by 2σ at each additional contour. On the scale of the beam, significant
+substructure is clearly visible. The peak of central Hi emission is slightly displaced from the
+optical center of the galaxy, and the spiral arm features to the south are clearly visible in
+Hi. A weak bar is optically visible, but we do not have the resolution in Hi to determine
+any relationship between the stellar population and Hi there.
+One interesting feature is that even though UGC 9037 is gas dominated (GF> 1), its
+Hi does not appear to be more extended beyond its optical radius compared to less gas-rich
+objects of similar stellar mass. The “Bluedisks” sample examined by Wang et al. (2013)
+includes galaxies of similar stellar mass but GF ∼ 0.3. For that sample, typical ratios of
+Hi radius (RHI ; where the deprojected ΣHI = 1 M⊙ pc−2 ) to optical radius (R25 ; where the
+B-band surface brightness reaches 25 mag ′′−2 ) are 0.1 < log(RHI /R25 ) < 0.4 at the same
+stellar mass. UGC 9037 has a value in the center of that range, log(RHI /R25 ) = 0.26.
+If we consider only the radius of the Hi itself, we also find that UGC 9037 is not extended
+compared to other galaxies of similar Hi mass. Broeils & Rhee (1997) found a very strong
+(r = 0.98) linear relationship between logMHI and log RHI , which was observed to extend to
+the gas-rich more massive galaxies of the ‘Bluedisks’ sample (Wang et al. 2013; see Equation
+3 of Broeils & Rhee 1997):
+log RHI = 0.51 log MHI − 3.63
+
+(13)
+
+For UGC 9037, the predicted Hi radius from the VLA maps is 44 ± 4 kpc, in good agreement
+with the observed 42.1 ± 0.7 kpc. From the optical and Hi radii alone, it would appear that
+UGC 9037 is a ‘normal’ spiral galaxy which has simply been scaled up to a high Hi mass
+and gas fraction.
+
+– 14 –
+The middle panel of Figure 2 is an Hα image of UGC 9037 with the same Hi contours
+overlaid. Star formation is confined to the spiral arms and bar and decreases smoothly out
+to the edge of detectable emission at ∼25 kpc. The bottom panel is the moment 1 velocity
+field, with contours spaced by 20 km s−1 . The field shows smooth, well-defined velocities
+across the extent of Hi emission, but some deviations from perfect rotational motion can be
+seen: there is a twist in the isovelocity contours near the galaxy center along the major axis.
+Figure 3 shows a position-velocity map, made by taking a slice through the data cube
+along the average position angle of the galaxy (11◦ west of north), 20′′ wide, through the
+center of the cube. The velocity structure of UGC 9037 is very clean: at every position
+along the galaxy, there is a single, narrow range over which Hi emission is present. The only
+asymmetry in the galaxy is the mismatch of the radial extent of the approaching and receding
+sides of the galaxy also apparent in Figure 2. While the rotation of the receding (north) side
+of the galaxy can be traced only to 25 kpc, the approaching (south) side is more extended,
+with emission still easily visible to & 40 kpc. The derived rotation curve is over-plotted on
+the diagram, projected onto the sky, and matches very well, but the asymmetric nature of
+the emission is not captured in the rotation curve, which is assumed to be symmetric.
+The decomposition of UGC 9037 into tilted rings appears in Figure 4. All four panels
+are plotted as a function of deprojected radius to the fitted rotational center. The black
+filled points and solid lines are for the best-fit model. In the top left panel is the rotational
+velocity. The rotation curve of UGC 9037 rises quickly, and by 20 kpc has reached its
+maximum of 160 km s−1 , then shows signs of decline. The top right panel presents the
+expansion velocities of the rings. These velocities are negative in the rotcur model, but
+without knowing which side of the disk is closest, it is not possible to determine whether
+these velocities represent inflow or outflow. There are non-circular velocities at all radii,
+although only within 20 kpc does each individual point become significant. The average
+non-circular velocity is −14.4 ± 1.2 km s−1 , approximately 9% of the maximum rotation
+speed of 160.2 ± 7.3 km s−1 .
+Are these non-circular velocities real and significant? One problem with fitting tilted
+ring model rotation curves is that disk geometry is degenerate with non-circular velocities:
+one can, by varying the position angle and inclination of the disk, allow for any choice of
+‘expansion velocity’ (e.g. Schoenmakers et al. 1997; Sellwood & Sánchez 2010). However, it
+is well known that the inner regions of real galaxy disks are very flat, and our best-fitting
+model is also quite flat. The position angle (measured east of north; lower left) and inclination
+(lower right) only vary by a few degrees over the entire disk, although outside of 20 kpc,
+the disk shows some slight bending (∆i ∼ 10◦ ). Forcing the non-circular velocities to zero
+requires the inner disk to twist quite strongly (∆ PA ∼ 15◦ ), strongly counter-indicating
+
+– 15 –
+such a model. The inner 10 kpc of our model disk does appear to twist slightly (∆ PA
+∼ 5◦ ), although such changes are within our uncertainties. This small twisting could be an
+indication of the fit following the bar and spiral arms apparent in the optical image and
+Hi intensity map. Such a twisting is observed in resolved studies of nearby galaxies (e.g.,
+Chemin et al. 2009 and Corbelli et al. 2010). However, unlike those authors’ findings, fixing
+the position angle in the inner disk does not remove the effect.
+Second, we note that while the tilted ring model implemented by rotcur can probe
+some non-circular motions, it is primarily designed to model flat disks dominated by rotational motions with possible warping at large radii; the only non-circular motions it can account for are axisymmetric radial flows. To supplement the rotcur results, we use the DiskFit package (Spekkens & Sellwood 2007; Sellwood & Sánchez 2010; Kuzio de Naray et al.
+2012), which fits more realistic flat disk models to the observed data. We fit three models using DiskFit: a pure rotational model, a model which allows for radial flows, and one
+which models bisymmetric (bar-like) flows. The flat disk geometry is allowed to vary in the
+models, and in all cases we find values that are consistent with the average values obtained
+by rotcur. Figure 5 presents the resulting model velocity fields (top) and residuals compared to the moment 1 map (bottom), for the pure rotational (left), radial flow (middle)
+and bisymmetric flow (right) models. The model velocity fields have isovelocity contours
+every 20 km s−1 , and the color bar for the residuals spans -10 km s−1 to 10 km s−1 . As
+with rotcur, a pure rotational model fits the inner disk poorly: the residuals show opposite systematic trends in the east and west halves of the inner disk. By eye, the radial and
+bisymmetric flow models appear to have nearly identical residuals, and both reproduce the
+inner velocity field twist (Figure 2, bottom panel). Both non-circular flow models present
+plausible representations of the data: it is not possible to distinguish between the two using
+the quality of the fit (Spekkens & Sellwood 2007). However, the presence of a weak bar in
+UGC 9037 (Figure 2, top panel) suggests that bar-like flows are the most likely explanation
+for the observed non-circular motions, although streaming motions toward the galaxy center
+may also be consistent with the picture that UGC 9037 is on the verge of undergoing intense
+star formation. All three models show some systematic trends in their residuals at large
+radii; this may be related to the slight warping seen at large radii in the rotcur rotation
+curve, which has not been taken account in DiskFit.
+
+4.2.
+
+UGC 12506: Images and Rotation Curve
+
+In the same format as Figure 2, Figure 6 presents images of UGC 12506. At the Hubble
+flow distance of 98 Mpc (assuming H0 = 70km s−1 Mpc−1 ), each arcsecond corresponds to
+
+– 16 –
+0.48 kpc, and so with a clean beam of ∼ 6′′ , the VLA observations have a resolution of
+roughly 2.9 kpc. The top panel shows Hi contours overlaid on a SDSS optical image of
+UGC 12506. The contours begin at 4σ significance (NHI = 8.0 × 1020 cm−2 ), and increase
+by 2σ at each additional contour. UGC 12506 is very large galaxy. Its optical radius is 40
+kpc, and the Hi can be traced beyond 60 kpc. Like UGC 9037, it has a typical, but lower,
+log(RHI /R25 ) = 0.16. Similarly, the predicted Hi radius for a galaxy of its Hi mass (from
+Equation 13) is 56 ± 4 kpc, in agreement with the observed 58 ± 2 kpc. From the optical
+and Hi radii, the galaxy appears fairly typical for its stellar and Hi masses.
+In the optical image there are two interlopers, neither of which is connected with UGC
+12506. To the east, there is a star nearly coincident with a small overdensity of Hi, and to
+the south, intersecting with UGC 12506 is a galaxy at higher redshift.
+The middle panel of Figure 6 shows our Hα image of UGC 12506. UGC 12506 shows
+star formation smoothly spread throughout the disk. The eastern overdensity of Hi shows
+no significant star formation. The bottom panel of Figure 6 is the velocity field. Isovelocity
+contours are spaced every 20 km s−1 . The galaxy shows ordered rotation out to the edge of
+where emission is detectable. The velocity field of UGC 12506 is more complex compared
+to the smooth UGC 9037. This is an effect of the high inclination of the disk; we do not
+believe that the closed contours indicate a real decrease in the rotation curve. As mentioned
+in §2.2, the inclination of UGC 12506 is high (i = 86◦ ), causing the velocity field to be a poor
+indicator of the rotational velocity of the galaxy: a position-velocity diagram is required.
+Figure 7 shows the position-velocity diagram for UGC 12506, produced in the same
+fashion as Figure 2, except that the major axis is along 99.7◦ west of north. The galaxy’s high
+(& 80◦ ) inclination combined with the finite Hi beam size means that there is a broad range
+of velocities present at every position along the major axis, rather than a single velocity. The
+envelope fitting method described in §2.2 smoothly traces the maximum observed velocities.
+There is some asymmetry in the approaching (eastern) and receding (western) sides of the
+galaxy in both the shape and length of the arms. The receding side is detectable only to
+∼ 50 kpc from the galaxy center, while the approaching side is detectable to ∼ 70 kpc.
+UGC 12506’s rotation curve, calculated from the PV diagram, is presented in Figure 8.
+The two lines show the receding (solid) and approaching (dashed) arms of the galaxy. The
+rotation curve rises quickly and reaches a maximum velocity of ∼ 250km s−1 .
+
+– 17 –
+4.3.
+
+Gas Stability and Star Formation
+
+Figure 9 shows the deprojected Hi surface densities (thick black lines) of UGC 9037 (top)
+and UGC 12506 (bottom) as a function of radius from the center of the galaxy. Also plotted
+are the thresholds for axisymmetric gravitational instability (ΣQ ; dotted red lines), shear
+instability (ΣA ; dashed green lines), for a cold phase to form (ΣS04 ; dash-dotted purple
+lines), and where Hi is observed to saturate (∼ 10 M⊙ pc−2 ; cyan dashed triple-dotted line).
+The central Hi density is quite high in UGC 9037, reaching almost 14 M⊙ pc−2 , larger
+than the 10 M⊙ pc−2 where Hi is observed to saturate. In the THINGS sample, high surface
+densities are only observed in NGC 3077 (whose gas is highly disturbed and asymmetric) and
+NGC 4214 (which is an irregular galaxy). Compared to UGC 9037, both have over an order
+of magnitude less mass in stars and Hi (HIHI ∼ M∗ ∼ 9). In addition, over the entire disk,
+the Hi density exceeds our ΣQ criterion, indicating that the gas is marginally unstable. In
+this interpretation, the non-circular motions detected in the velocity field may represent inflowing gas to fuel the imminent star formation. A detailed investigation of higher-resolution
+kinematics, such as those afforded by CO interferometry, as well as a determination of the
+near side of UGC 9037’s disk may help distinguish radial inflows from other interpretations
+of the observed non-circular motions.
+Despite having a slightly higher overall Hi mass compared to UGC 9037, UGC 12506
+has a low density (typically 1 − 5 M⊙ pc−2 ) Hi disk out to 60 kpc. Only in the very center
+of the galaxy (< 5 kpc) do we expect H2 to be an important component of the interstellar
+medium. UGC 12506 lies just at the ΣHI = ΣQ line except in the inner ∼15 kpc, where
+ΣHI becomes strictly less than ΣQ . However, the Hα imaging does not mirror this: we see
+healthy star formation throughout the disk, including near the galaxy’s center. If H2 is a
+significant near the center of the galaxy, it may make up this gap.
+Both galaxies have a roughly exponential Hi profile, unusual for galaxies in the local
+universe. Generally, a flat or decreasing density in the inner disk with ΣHI stagnating near
+10 M⊙ pc−2 is observed (e.g. Walter et al. 2008; Leroy et al. 2008). UGC 9037 only begins
+to flatten in the very inner disk, at approximately 13 M⊙ pc−2 of Hi. As UGC 12506 barely
+reaches 10 M⊙ pc−2 of Hi near its center, and thus could not show a flat profile over any
+significant range of radii given the resolution of our observations, it is difficult to draw
+conclusions about its profile. However, the combination of its very high Hi mass and low
+surface densities are very unusual.
+For neither galaxy does the shear criterion appear to be a significant predictor of star
+formation, as for both galaxies ΣHI < ΣA across essentially the entire disk despite clear
+evidence of star formation across the entire disk. Similarly, for both galaxies, the predictions
+
+– 18 –
+of the model of Schaye (2004) suggest that a cold phase can form only in the inner 10 − 20
+kpc of each galaxy.
+
+4.4.
+
+Dark Matter and Spin Parameters
+
+The parameters obtained from fits of both NFW and ISO halos to our galaxies’ rotation
+curves appear in Table 5. Both galaxies are well-fit by both halo models (χ2 /dof . 1). An
+F-test statistic indicates that UGC 9037 shows weak evidence of favoring the ISO model
+(χ2ISO = 0.65; χ2NFW = 1.29; p = 0.07), but is not conclusive. For UGC 12506, there is a
+very significant preference for the NFW model (χ2ISO = 0.54; χ2NFW = 0.21; p = 0.004). As
+UGC 12506 is a low surface brightness galaxy (Huang et al. 2014), this result is surprising.
+In general, LSB galaxies exhibit slowly rising rotation curves and cannot be fit by NFW
+profiles (e.g. Moore 1994, McGaugh & de Blok 1998), while UGC 12506 exhibits neither of
+these qualities.
+As previously discussed, simulations and semi-analytic models suggest a correlation
+between gas richness and high spin parameter as suggested observationally by Huang et al.
+(2012a). Figure 10 shows a probability density function of spin parameters of THINGS
+galaxies calculated according to the method in §3.1.4; the histogram is normalized so that
+the total area is unity. The range of spin parameters (0.01 < λ < 0.10) that we calculate
+for the THINGS galaxies matches up with ‘typical’ values of spin parameters derived from
+observation and simulation (Shaw et al. 2006; Macciò et al. 2007; Hernandez et al. 2007).
+Also plotted in the figure as a dashed line is the best-fit lognormal distribution of the sample
+of Hernandez et al. (2007). The two are similar in a very rough sense. The disagreement
+may be due to the differences between our method and that of Hernandez et al. (2007) for
+calculating spin parameters, but given the small number statistics and uncertainties in the
+calculation of λ, we hesitate to read further into this.
+The spin parameters for our two galaxies, UGC 9037 and UGC 12506 are plotted in
+Figure 10 as arrows. UGC 9037 has a spin parameter of λ = 0.07, while that of UGC 12506
+is λ = 0.15. Whether we compare to the Hi-derived or the optically-derived sample, the
+results are the same: UGC 9037 has a typical value, while UGC 12506 has a very high spin
+parameter. If we compare to the results obtained by Huang et al. (2014) for the HIghMass
+sample as a whole, we find that UGC 9037 has a somewhat low spin parameter, while UGC
+12506’s spin parameter is still quite high.
+
+– 19 –
+5.
+5.1.
+
+Discussion
+
+UGC 9037: On the Verge of a Starburst?
+
+The specific star formation rate of UGC 9037 is SSFR ≡ SFR/M∗ = 3.5 × 10−10 yr−1 ,
+which is elevated compared to the typical value for an galaxy with the same stellar mass
+(0.9 × 10−10 yr−1 ; Huang et al. 2012a; Huang et al. 2014). The Hi and Hα both tell the
+same story in UGC 9037: this is a galaxy which is entering into a phase of significant star
+formation. The Hα imaging shows very strong star formation is occurring in the central parts
+of the galaxy, which is an extremely gas-rich spiral. Across the disk the gas is marginally
+stable and non-circular flows—possibly inflows—of up to 20 km s−1 are detected. High gas
+surface densities have built up, fueling star formation: interior of 10 kpc, densities are > 10
+M⊙ pc−2 , with the central surface density reaches nearly 14 M⊙ pc−2 , significantly above
+what is typically observed to be the maximum in local star-forming galaxies. All four of our
+examined star formation thresholds (axisymmetric gravitational instability, shear, formation
+of a cold phase, and H2 dominance) point to strong future star formation ability.
+But why does UGC 9037 appear to be just now converting this large, dynamically
+unstable reservoir of gas into stars? The simplest explanation is that the gas is unstable due
+to its weak bar, but this does not explain why the galaxy has that feature. UGC 9037 is
+in the outskirts of the NGC 5416 group (poor cluster MKW 12), and so tidal torques from
+interactions with the group may have created a bar instability in the disk. It is also possible
+that UGC 9037 has only recently acquired (or is in the process of acquiring) a substantial
+reservoir of gas, and its dynamics are unable to sustain the gas without an increase in
+star formation. Both the overall symmetry of the gas distribution and the regularity of the
+rotation curve indicate that a recent major merger is highly unlikely, but if it is in the process
+of accreting from an extended gaseous halo or, as it is in a group, cold gas along a filament,
+then this is what we would expect to observe. However, given the lack of a strong warp in
+UGC 9037, any accreted gas would have to have the same angular momentum as the parent
+galaxy (e.g. Shen & Sellwood 2006). Given how difficult it is to determine inflow rates in
+nearby galaxies, it is unclear as to whether it will be undergoing major star formation and
+gas depletion in the near future, or whether it is in a quasi-static state of elevated, but not
+extremely high star formation (∼ 4 M⊙ yr−1 ).
+
+5.2.
+
+UGC 12506: High Spin Parameter
+
+In contrast, every property of UGC 12506 points to it as being a massive galaxy with an
+unusually high spin parameter, which has maintained its gas reservoir in a relatively diffuse
+
+– 20 –
+configuration, with ΣHI typically typically 1 − 4 M⊙ pc−2 . Its gas dynamics are stable, it
+has a large rotational velocity, and has uniform low-level star formation. While a cold phase
+of atomic gas can form at modest radii (. 20 kpc), our star formation thresholds do not
+suggest that the H2 becomes the dominant phase of the ISM except the very center of the
+galaxy. We observe modest star formation rates across the disk, and similarly only modest
+levels of gravitational instability in the disk (ΣHI /ΣQ ∼ 0.45). Our calculation of its spin
+parameter as λ = 0.15, very high compared to galaxies in the local universe, confirms these
+observations.
+
+6.
+
+Conclusions
+
+The HIghMass sample is a unique sample of several dozen unusually Hi-rich high mass
+galaxies out of galaxies detected in ALFALFA with Hi masses > 1010 M⊙ . In this paper, we
+have presented a first look at two of these galaxies using high-resolution VLA observations
+combined with previous Hα and optical imaging. We have derived structural and dynamical
+parameters of the gas distribution and derived dark matter halo properties, including their
+spin parameters. Future analysis will extend these techniques to the rest of the HIghMass
+sample.
+Our primary question is how galaxies can maintain such large gas reservoirs to the
+present day without processing them into stars. Of the two galaxies, UGC 9037 appears to
+be undergoing a period of increasing star formation, possibly stimulated by a bar instability
+in the inner part of the disk. Given the very high (> 10 M⊙ pc−2 ) surface densities at
+the center, we expect to see very high quantities of H2 present there. The non-circular
+flows detected in the disk may stem from radially inflowing gas to fuel the star formation,
+although flows along the weak bar in this galaxy may be the more likely explanation. Its
+current global rate of star formation (∼ 4 M⊙ yr−1 ) may be sustainable by accretion from its
+gaseous halo, but if it does undergo rapid star formation in the near future, it may quickly
+transition toward the red sequence.
+The other galaxy, UGC 12506 appears to have a large halo spin parameter (λ = 0.15),
+leading to lower gas densities and thus star formation rates over the entire disk. UGC 12506’s
+gas is quite stable, but supporting of modest star formation at all radii. We predict its gas to
+be Hi-dominated at essentially all radii, with relatively little H2 . Overall, the most consistent
+history of UGC 12506 is that its high spin has prohibited it from reaching high rates of star
+formation, and its baryonic component remains gas-dominated.
+Acknowledgements
+
+– 21 –
+
+This work has been supported by NSF-AST-0606007 and AST-1107390, grants from the
+Brinson Foundation, and a Student Observing Support award from NRAO.
+We appreciate the significant help in data reduction of VLA data using CASA provided
+by our conversations with NRAO staff, especially Emmanuel Momjian and Juergen Ott.
+We appreciate access to the tilted ring fits and mass models of the galaxies in the THINGS
+sample as provided to us by the THINGS team.
+We would like to thank our anonymous reviewer, whose comments have significantly improved this paper.
+
+REFERENCES
+Baugh, C. M. 2006, Reports on Progress in Physics, 69, 3101
+Begeman, K. G. 1989, A&A, 223, 47
+Bell, E. F., McIntosh, D. H., Katz, N., & Weinberg, M. D. 2003, ApJS, 149, 289
+Benson, A. J. 2010, Phys. Rep., 495, 33
+Bigiel, F., Leroy, A., Walter, F., et al. 2008, AJ, 136, 2846
+Boissier, S., & Prantzos, N. 2000, MNRAS, 312, 398
+Broeils, A. H., & Rhee, M.-H. 1997, A&A, 324, 877
+Catinella, B., Schiminovich, D., Kauffmann, G., et al. 2010, MNRAS, 403, 683
+Cervantes-Sodi, B., & Hernández, X. 2009, Rev. Mexicana Astron. Astrofis., 45, 75
+Chemin, L., Carignan, C., & Foster, T. 2009, ApJ, 705, 1395
+Corbelli, E., Lorenzoni, S., Walterbos, R., Braun, R., & Thilker, D. 2010, A&A, 511, A89
+Cornwell, T. J. 2008, IEEE Journal of Selected Topics in Signal Processing, 2, 793
+Cortese, L., Catinella, B., Boissier, S., Boselli, A., & Heinis, S. 2011, MNRAS, 415, 1797
+Cowie, L. L., Songaila, A., Hu, E. M., & Cohen, J. G. 1996, AJ, 112, 839
+
+– 22 –
+de Blok, W. J. G., Walter, F., Brinks, E., et al. 2008, AJ, 136, 2648
+de Blok, W. J. G. 2010, Advances in Astronomy, 2010, Article ID 789293
+de Vaucouleurs, G., de Vaucouleurs, A., Corwin, H. G., Jr., et al. 1991, Third Reference
+Catalogue of Bright Galaxies. Volume I: Explanations and references. Volume II:
+Data for galaxies between 0h and 12h . Volume III: Data for galaxies between 12h
+and 24h ., by de Vaucouleurs, G.; de Vaucouleurs, A.; Corwin, H. G., Jr.; Buta, R. J.;
+Paturel, G.; Fouqué, P.. Springer, New York, NY (USA), 1991, 2091 p., ISBN 0-38797552-7, Price US$ 198.00. ISBN 3-540-97552-7, Price DM 448.00. ISBN 0-387-97549-7
+(Vol. I), ISBN 0-387-97550-0 (Vol. II), ISBN 0-387-97551-9 (Vol. III).,
+Fraternali, F., & Binney, J. J. 2006, MNRAS, 366, 449
+Fraternali, F., & Binney, J. J. 2008, MNRAS, 386, 935
+Giovanelli, R., Haynes, M. P., Kent, B. R., et al. 2005, AJ, 130, 2598
+Haynes, M. P., Giovanelli, R., Martin, A. M., et al. 2011, AJ, 142, 170
+Hernandez, X., Park, C., Cervantes-Sodi, B., & Choi, Y.-Y. 2007, MNRAS, 375, 163
+Hopkins, P. F., Kereš, D., & Murray, N. 2013, MNRAS, 432, 2639
+Huang, S., Haynes, M. P., Giovanelli, R., & Brinchmann, J. 2012, ApJ, 756, 113 s
+Huang, S., Haynes, M. P., Giovanelli, R., et al. 2012, AJ, 143, 133
+Huang, et al. 2014, in review
+Hunter, D. A., Elmegreen, B. G., & Baker, A. L. 1998, ApJ, 493, 595
+Jimenez, R., Padoan, P., Matteucci, F., & Heavens, A. F. 1998, MNRAS, 299, 123
+Jog, C. J., & Solomon, P. M. 1984, ApJ, 276, 127
+Jog, C. J., & Solomon, P. M. 1992, ApJ, 387, 152
+Kennicutt, R. C., Jr. 1989, ApJ, 344, 685
+Kereš, D., Katz, N., Weinberg, D. H., & Davé, R. 2005, MNRAS, 363, 2
+Krumholz, M. R., Dekel, A., & McKee, C. F. 2012, ApJ, 745, 69
+Kuzio de Naray, R., Arsenault, C. A., Spekkens, K., et al. 2012, MNRAS, 427, 2523
+
+– 23 –
+Leroy, A. K., Walter, F., Brinks, E., et al. 2008, AJ, 136, 2782
+Lucy, L. B. 1974, AJ, 79, 745
+Macciò, A. V., Dutton, A. A., van den Bosch, F. C., et al. 2007, MNRAS, 378, 55
+Martin, C. L., & Kennicutt, R. C., Jr. 2001, ApJ, 555, 301
+Martin, A. M., Papastergis, E., Giovanelli, R., et al. 2010, ApJ, 723, 1359
+McGaugh, S. S., & de Blok, W. J. G. 1998, ApJ, 499, 41
+Mo, H. J., Mao, S., & White, S. D. M. 1998, MNRAS, 295, 319
+Moore, B. 1994, Nature, 370, 629
+Navarro, J. F., Frenk, C. S., & White, S. D. M. 1997, ApJ, 490, 493
+Neto, A. F., Gao, L., Bett, P., et al. 2007, MNRAS, 381, 1450
+Nilson, P. 1973, Acta Universitatis Upsaliensis. Nova Acta Regiae Societatis Scientiarum
+Upsaliensis - Uppsala Astronomiska Observatoriums Annaler, Uppsala: Astronomiska
+Observatorium, 1973,
+Oppenheimer, B. D., Davé, R., Kereš, D., et al. 2010, MNRAS, 406, 2325
+Papastergis, E., Cattaneo, A., Huang, S., Giovanelli, R., & Haynes, M. P. 2012, ApJ, 759,
+138
+Peebles, P. J. E. 1971, A&A, 11, 377
+Rafikov, R. R. 2001, MNRAS, 323, 445
+Rich, J. W., de Blok, W. J. G., Cornwell, T. J., et al. 2008, AJ, 136, 2897
+Romeo, A. B., & Falstad, N. 2013, MNRAS, 1482
+Romeo, A. B., & Wiegert, J. 2011, MNRAS, 416, 1191
+Saintonge, A., Kauffmann, G., Wang, J., et al. 2011, MNRAS, 415, 61
+Salim, S., Rich, R. M., Charlot, S., et al. 2007, ApJS, 173, 267
+Sancisi, R., & Allen, R. J. 1979, A&A, 74, 73
+Sancisi, R., Fraternali, F., Oosterloo, T., & van der Hulst, T. 2008, A&A Rev., 15, 189
+
+– 24 –
+Schaye, J. 2004, ApJ, 609, 667
+Schoenmakers, R. H. M., Franx, M., & de Zeeuw, P. T. 1997, MNRAS, 292, 349
+Sellwood, J. A., & Sánchez, R. Z. 2010, MNRAS, 404, 1733
+Shen, J., & Sellwood, J. A. 2006, MNRAS, 370, 2
+Shaw, L. D., Weller, J., Ostriker, J. P., & Bode, P. 2006, ApJ, 646, 815
+Sofue, Y., & Rubin, V. 2001, ARA&A, 39, 137
+Spekkens, K., & Sellwood, J. A. 2007, ApJ, 664, 204
+Springob, C. M., Haynes, M. P., Giovanelli, R., & Kent, B. R. 2005, ApJS, 160, 149
+Toomre, A. 1964, ApJ, 139, 1217
+Trachternach, C., de Blok, W. J. G., Walter, F., Brinks, E., & Kennicutt, R. C., Jr. 2008,
+AJ, 136, 2720
+Walter, F., Brinks, E., de Blok, W. J. G., et al. 2008, AJ, 136, 2563
+Wang, B., & Silk, J. 1994, ApJ, 427, 759
+Wang, J., Kauffmann, G., Józsa, G. I. G., et al. 2013, arXiv:1303.3538
+Warmels, R. H. 1988, A&AS, 72, 19
+White, S. D. M., & Frenk, C. S. 1991, ApJ, 379, 52
+Zwaan, M. A., Meyer, M. J., Staveley-Smith, L., & Webster, R. L. 2005, MNRAS, 359, L30
+
+This preprint was prepared with the AAS LATEX macros v5.2.
+
+– 25 –
+
+Table 1. Sample Optical, UV, and Hi Properties
+Galaxy
+
+UGC 9037
+UGC 12506
+
+Optical Coordinates
+J2000
+(1)
+
+Vsys
+km s−1
+(2)
+
+dist
+Mpc
+(3)
+
+log MHI
+M⊙
+(4)
+
+log M∗
+M⊙
+(5)
+
+GF
+(6)
+
+log SFR
+M⊙ yr−1
+(7)
+
+R25
+kpc
+(8)
+
+14:08:29.1+07:03:27
+23:19:30.5+16:04:27
+
+5939
+7237
+
+88.5
+98.2
+
+10.33
+10.53
+
+10.09
+10.46
+
+1.75
+1.41
+
+0.63
+0.40
+
+23.2
+40.0
+
+Note. — Hi single-dish, optical, and fitted parameters of the HIghMass galaxies presented in this
+paper. Column 1: Right ascension and declination of the optical centroid in J2000 coordinates; Column
+2: Recessional optical velocity from Haynes et al. (2011), defined as cz; Column 3: Hubble flow distance,
+assuming H0 = 70 km s−1 ; Column 4: Hi mass, from Haynes et al. (2011); Column 5: Stellar mass, from
+Huang et al. (2012a); Column 6: gas fraction, defined as MHI /M∗ ; Column 7: Star formation rate, from
+Huang et al. (2012a); Column 8: Optical B-band semi-major axis where surface brightness reaches 25
+mag arcsec−2 , from Nilson (1973)
+
+Table 2. Map Properties
+Galaxy
+
+UGC 9037
+UGC 12506
+
+RHI
+kpc
+(1)
+
+R̂HI
+kpc
+(2)
+
+log RHI /R25
+
+PA
+
+i
+
+◦
+
+◦
+
+(3)
+
+(4)
+
+(5)
+
+42.09 ± 0.72
+57.8 ± 1.9
+
+43.9 ± 3.5
+55.6 ± 4.5
+
+0.26
+0.16
+
+-11.2
+-99.7
+
+60
+86
+
+Note. — Properties derived from VLA Hi maps. Column 1: Radius
+where ΣHI = 1 M⊙ pc−2 (see §3.1.1); Column 2: Expected Hi radius, calculated from MHI using Equation 13 and Broeils & Rhee (1997); Column
+3: Ratio of Hi to optical radii (see Table 1 Column 8); Column 4: Typical position angle on the sky of galaxy in the outer disk (defined as east
+of north), used to produce position-velocity maps; Column 5: Average
+inclination angle of the galaxy.
+
+– 26 –
+
+Table 3. VLA Clean Data Cube Properties
+Galaxy
+
+Velocity Resolution
+km s−1
+(1)
+
+Clean Beam
+
+UGC 9037
+
+7
+
+UGC 12506
+
+7
+
+7.5′′ × 5.7′′
+3.2 kpc ×2.4 kpc
+8.6′′ × 5.8′′
+4.1 kpc ×2.8 kpc
+
+(2)
+
+Noise (Cube)
+mJy beam−1
+(3)
+
+Noise (Map)
+
+0.52
+
+9.0 mJy km s−1 beam−1
+2.3 × 1020 cm−2
+10.0 mJy km s−1 beam−1
+2.2 × 1020 cm−2
+
+0.46
+
+(4)
+
+Note. — Properties of the VLA data cubes and maps. Column 1: velocity resolution of the image
+cubes, in km s−1 ; Column 2: the size of the restoring clean-beam, in both arcseconds and kpc; Column
+3: Per-channel noise in the cleaned data cubes; Column 4: Noise in the Hi intensity maps, both in mJy
+km s−1 beam−1 and in Hi column density. As both cubes had identical observational parameters, their
+clean beam sizes and noise levels are very similar.
+
+Table 4. Hi Spectra-Derived Galaxy Parameters
+Galaxy
+
+Instrument
+
+Flux
+Jy km s−1
+(1)
+
+W50
+kms s−1
+(2)
+
+Vsys
+kms s−1
+(3)
+
+UGC 9037
+
+VLA
+ALFALFA
+Difference (σ)
+
+12.68 ± 0.34
+11.51 ± 0.1
+3.3
+
+301.8 ± 2.6
+294 ± 2
+2.4
+
+5943.0 ± 1.8
+5939 ± 1
+1.9
+
+UGC 12506
+
+VLA
+ALFALFA
+Difference (σ)
+
+14.45 ± 0.34
+14.82 ± 0.11
+1.0
+
+461.6 ± 3.0
+457 ± 5
+0.8
+
+7235.8 ± 1.5
+7237 ± 2.5
+0.41
+
+Note. — Comparison of derived quantities from the VLA and ALFALFA
+spectra of each galaxy (see Figure 1). Derivation of ALFALFA measurements
+is discussed in Haynes et al. (2011); VLA measurements are derived from
+spectra in the same way, but with W 50 measurements corrected for instrumental broadening as discussed Springob et al. (2005); Column 1: The total
+integrated flux density of the galaxy; Column 2: The full velocity width at
+half of the peak emission; Column 3: The systemic heliocentric velocity of the
+galaxy, using the optical convention. All reported errors are 1-σ uncertainties
+using standard propagation of uncertainty.
+
+– 27 –
+
+Fig. 1.— Global spectra of UGC 9037 (top) and UGC 12506 (bottom) as derived from VLA
+and ALFALFA observations. VLA observations are red solid lines; ALFALFA observations
+are blue dashed lines. The UGC 12506 spectra match very well, but the VLA spectrum of
+UGC 9037 shows additional emission in the blueshifted horn compared to ALFALFA.
+
+– 28 –
+
+Fig. 2.— Images of UGC 9037, which has an inclination of ∼ 60◦ . (top) Hi intensity map.
+Contours begin at 4σ (NHI = 1021 cm−2 ), and increase by 2σ at each additional contour.
+The contours are overlaid on a false-color SDSS image (g, r, and i bands) with each color
+channel adjusted for maximum contrast. (middle) Hα image of UGC 9037 from Huang et al.
+(2014), with Hi density contours overlaid. Hi emission is tightly peaked near the center of
+the galaxy and does not extend significantly beyond the stellar disk; the Hα shows significant
+star formation in the spiral arms which smoothly decreases with radius. (bottom) Moment
+1 velocity field. Isovelocity contours are stepped at 20 km s−1 .
+
+– 29 –
+
+Fig. 3.— Position-Velocity (PV) diagram of UGC 9037, depicting a slice taken through the
+center of the data cube at the average position angle of the galaxy (-11◦ ). Velocities are
+observed velocities on the sky, not corrected for inclination. Negative positions are south
+of the galaxy center, positive positions are to the north. Overplotted points are the fitted
+rotation curve (see Figure 4), projected onto the sky. The PV diagram is consistend with
+a rapidly rising rotation curve which quickly reaches the maximum rotation velocity; some
+evidence of decline is seen on the approaching side.
+
+– 30 –
+
+Fig. 4.— Decomposition of UGC 9037 into tilted rings fit to the velocity field. Subgraphs
+are (top left) rotational velocity, corrected for inclination; (top right) expansion, or radial
+velocity of the rings; (lower left) position angle of rings, measured east from north (all
+fitted angles are negative, and thus the semimajor axis is slightly west of north); (lower
+right) inclination of rings; 0◦ is face on. The rotational velocity rises quickly to a maximum
+rotational velocity of ∼160 km s−1 after 20 kpc, qualitatively matching the PV diagram
+(see Figure 3). Across the disk, there are clear indications of noncircular gas motions: the
+gaseous disk is rapidly rotating, but also showing non-circular velocities. The disk geometry
+is quite flat, with the position angle and inclination varying by only 5-10◦ across the entire
+galaxy.
+
+– 31 –
+
+Fig. 5.— (top) Model velocity fields of UGC 9037 created with DiskFit, with solid lines
+every 20 km s−1 ; (bottom) residuals with respect to the observed velocity field (see Figure 2,
+bottom panel). The residual color scale ranges from −10 km s−1 (purple) to +10 km s−1 (red).
+(left) Model with pure rotational velocities, (middle) model allowing for symmetric radial
+flows, and (right) model allowing for bisymmetric (bar-like) flows. The residuals of the pure
+rotation model are correlated, and have opposite signs in the east and west halves of the
+inner disk, showing this model to be a poor fit to the data. The residuals for the radial and
+bisymmetric flow models are of nearly equal quality.
+
+– 32 –
+
+Fig. 6.— Images of UGC 12506, which has an inclination of ∼ 86◦ . Panel sequence is
+analogous to that in Figure 2; the 4σ here is NHI = 8.4 × 1020 cm−2 . Here the Hi is extended
+beyond the stellar disk (log RHI /R25 = 0.26), a value typical for galaxies of similar stellar
+mass and lower gas fraction (see Wang et al. 2013). The Hα shows that star formation occurs
+across the entire optical disk.
+
+– 33 –
+
+Fig. 7.— Position-Velocity diagram of UGC 12506, depicting a slice taken through the center
+of the data cube at the position angle of the entire galaxy (-99.7◦ ). Velocities are observed
+velocities on the sky, not corrected for inclination. Negative positions are east of the galaxy
+center, positive positions are to the west. Overplotted points are the fitted rotation curve,
+allowing for the significant asymmetry in the approaching and receding arms, as fit to the PV
+diagram. UGC 12506’s PV diagram shows much more complex structure as emission is not
+confined to a narrow range of velocities at each position. This is due to the high inclination
+of UGC 12506 (i ∼ 86◦ ): at every off-center position a range of projected velocities are
+compatible with a single rotational velocity.
+
+– 34 –
+
+Fig. 8.— Rotation curve of UGC 12506, the average of the approaching and receding sides,
+as observed in Figure 7, and corrected for inclination. The lines represent the rotation curve
+on the receding (solid) and approaching (dashed) sides of the galaxy, while the points are
+the average of the two. The entire galaxy is assumed to have a single inclination (i = 86.4◦ )
+and positional angle (P A = 99.7◦ west of north). Like UGC 9037, the rotation curve rises
+rapidly, but unlike UGC 9037 it shows signs of decline at large radii.
+
+– 35 –
+
+Fig. 9.— Hi surface densities as a function of radius for both UGC 9037 (top panel) and
+UGC 12506 (bottom), on identical axes (thick black lines). Also plotted are critical densities
+for: ring-like gravitational collapse (ΣQ ; red dotted lines), collapse inhibited by shear (ΣA ;
+green dashed lines), for a cold phase to form (ΣS04 ; purple dashed-dotted lines), and where
+Hi is seen to saturate (Hi saturates; cyan dashed triple-dotted lines). The Hi in UGC 9037
+is more centrally peaked, with surface densities > 10 M⊙ pc−2 , while the Hi in UGC 12506
+is more extended, out to 60 kpc, with typical surface densities of 1 − 4 M⊙ .
+
+– 36 –
+Table 5. Dark Matter Halo Properties
+Galaxy
+
+(1)
+
+NFW Halo
+R200
+kpc
+(2)
+
+2.67 ± 0.50
+14.87 ± 0.60
+
+121 ± 12
+123.0 ± 1.5
+
+c
+
+UGC 9037
+UGC 12506
+
+(3)
+
+ρC
+10−3 M⊙ /pc3
+(4)
+
+Iso Halo
+RC
+kpc
+(5)
+
+1.29
+0.21
+
+18.0 ± 2.0
+1150 ± 360
+
+5.16 ± 0.40
+0.91 ± 0.15
+
+χ2NFW
+
+χ2Iso
+
+Spin Parameter
+λ
+
+(6)
+
+(7)
+
+0.65
+0.54
+
+0.07
+0.15
+
+Note. — Results of fitting both Navarro-Frenk-White (NFW) and pseudo-isothermal (Iso) dark matter halo
+profiles to the two galaxies. Columns 1-2: Concentration index and characteristic length scale of halo (see
+Equation 3); Column 3: χ2 per degree of freedom of fit to NFW profile; Columns 4-5: central density and
+core scale length of halo (see Equation 2); Column 6: χ2 per degree of freedom of fit to Iso profile; Column 7:
+Modified spin parameter of the Iso dark matter halo, as discussed in §3.1.4.
+
+Fig. 10.— Distribution of observed spin parameters of galaxies. The solid histogram shows
+spin parameters of the THINGS galaxies. The dashed line is the best-fit lognormal distribution of SDSS galaxies by Hernandez et al. (2007). The two very roughly occupy the same
+range of values. They may be from the same distribution, but with the small number of
+galaxies in the THINGS sample we cannot tell. Arrows show the calculated spin parameters
+of UGC 9037 (0.07) and UGC 12506 (0.15). Measured against either standard, UGC 9037
+has a typical spin parameter, while UGC 12506’s is quite high.
+
+

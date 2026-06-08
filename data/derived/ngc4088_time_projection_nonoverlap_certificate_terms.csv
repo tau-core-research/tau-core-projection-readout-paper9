@@ -1,0 +1,5 @@
+galaxy,xi_eff_feature,term_value,additive_token,overlap_status,belongs_to_orthogonal_clock_subspace,orthogonal_term_value,proof_reason,uses_vobs_or_residual,claim_boundary
+NGC4088,f_PA,0.25,C_warp,SHARED_WARP_GEOMETRY,False,0.0,orientation mismatch is part of the same warp/history geometry family,False,ngc4088_time_projection_nonoverlap_certificate_not_endpoint
+NGC4088,f_R,0.1249999999999999,x_w_formula_freeze,SHARED_ONSET_RADIAL_SUPPORT,False,0.0,radial onset/asymmetry information is already used by the additive kernel,False,ngc4088_time_projection_nonoverlap_certificate_not_endpoint
+NGC4088,f_q,0.5,q_warp,DIRECT_SOURCE_STRENGTH_OVERLAP,False,0.0,q_warp is already an additive-kernel source-strength factor,False,ngc4088_time_projection_nonoverlap_certificate_not_endpoint
+NGC4088,f_mem,0.5,sigma_warp,SHARED_HISTORY_PHASE,False,0.0,morphology-carried history phase is already assigned to the additive warp/history route,False,ngc4088_time_projection_nonoverlap_certificate_not_endpoint

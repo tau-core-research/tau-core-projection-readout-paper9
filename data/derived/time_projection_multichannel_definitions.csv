@@ -1,0 +1,5 @@
+object_id,definition,meaning,inactive_limit,status,claim_boundary
+XI_MORPH,Xi_morph(R;Theta_src^tau),source-intrinsic morphology clock/phase readout factor,Xi_morph -> 1 for settled regular source morphology,FUNDAMENTAL_CHANNEL_PROPOSED_FORMULA_CONDITIONAL,time_projection_multichannel_fundamental_gate_not_endpoint
+XI_OBS,Xi_obs(R;O_obs/path),observer/path-selected clock slice and visibility factor,Xi_obs -> 1 for ordinary projection with no independent clock evidence,FUNDAMENTAL_CHANNEL_PROPOSED_FORMULA_CONDITIONAL,time_projection_multichannel_fundamental_gate_not_endpoint
+XI_PATH,Xi_path(R;E_proj/history),null-bundle/path-environment clock-readout factor,Xi_path -> 1 when path/environment evidence is absent,FUNDAMENTAL_CHANNEL_PROPOSED_FORMULA_CONDITIONAL,time_projection_multichannel_fundamental_gate_not_endpoint
+XI_EFF,Xi_eff = Xi_morph Xi_obs Xi_path,effective total time-readout factor used by the observed velocity quotient,Xi_eff -> 1 if all time-projection channels are inactive,DERIVED_FROM_FACTOR_DEFINITION,time_projection_multichannel_fundamental_gate_not_endpoint

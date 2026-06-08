@@ -1,0 +1,3 @@
+required_object,required_evidence,forbidden_inputs,status,endpoint_scores_allowed,claim_boundary
+disc_to_halo_envelope_lambda_conversion,source-side relation between disc angular-momentum lambda and halo/envelope lambda_spin for the beta_cl closure slot,rotation residual; endpoint score; best-fit beta; wrong-family rank,MISSING,False,ugc12506_beta_closure_lambda_definition_conversion_gate_not_endpoint
+ngc7331_direct_halo_or_envelope_spin,direct source-native halo/envelope spin or accepted kinematic proxy,rotation residual; endpoint score,MISSING,False,ugc12506_beta_closure_lambda_definition_conversion_gate_not_endpoint

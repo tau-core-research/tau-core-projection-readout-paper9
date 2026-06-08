@@ -1,0 +1,3 @@
+formula_id,formula,status,interpretation,claim_boundary
+TIME_READOUT_FULL_SHELL,"v_obs^2(R)=Xi_t^2(R;O_obs/path,Theta_morph,E_proj/history)[v_Newt^2(R)+delta_v_grav/morph^2(R)]",FORMULA_CONDITIONAL,"projection-dependent clock/readout mismatch, not an extra force",time_readout_projection_channel_formula_conditional_not_endpoint
+TIME_READOUT_LINEARIZED_SHELL,Xi_t(R)=1+epsilon_t(R); delta_v_t^2(R) ~= 2 epsilon_t(R)[v_Newt^2(R)+delta_v_grav/morph^2(R)],FORMULA_CONDITIONAL_SMALL_MISMATCH,first-order diagnostic form for small clock/readout mismatch,time_readout_projection_channel_formula_conditional_not_endpoint

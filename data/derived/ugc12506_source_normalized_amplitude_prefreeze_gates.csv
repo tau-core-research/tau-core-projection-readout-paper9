@@ -1,0 +1,6 @@
+galaxy,gate_id,gate_status,evidence,remaining_obligation,uses_vobs_or_residual,endpoint_scores_allowed,claim_boundary
+UGC12506,UGC12506_AMP_G1_PREFLIGHT,PASS_PREFLIGHT_AVAILABLE,UGC12506_PROJECTION_HIGHS_PIN_FORMULA_PREFLIGHT_READY_AMPLITUDE_BLOCKED,none for preflight,False,False,ugc12506_source_normalized_amplitude_prefreeze_not_endpoint
+UGC12506,UGC12506_AMP_G2_SOURCE_LOAD,PASS_SOURCE_LOAD_DECLARED,"projection, high-spin, stability, and asymmetry loads use source-side observables",audit protocol constants before endpoint use,False,False,ugc12506_source_normalized_amplitude_prefreeze_not_endpoint
+UGC12506,UGC12506_AMP_G3_DIMENSIONS,PASS_DIMENSIONAL_CHECK,Gamma dimensionless; median outer carrier scale supplies km^2/s^2,none at prefreeze level,False,False,ugc12506_source_normalized_amplitude_prefreeze_not_endpoint
+UGC12506,UGC12506_AMP_G4_SIGN,BLOCKED_SIGN_TO_BE_CONTROL_REPLAYED,"positive and negative branches are frozen as future controls, not selected here",run both branches in a separate scoring script if endpoint gates pass,False,False,ugc12506_source_normalized_amplitude_prefreeze_not_endpoint
+UGC12506,UGC12506_AMP_G5_ENDPOINT,BLOCKED_ENDPOINT_NOT_ALLOWED,this script does not score vobs and does not claim validation,label gate and replay protocol required before scoring,False,False,ugc12506_source_normalized_amplitude_prefreeze_not_endpoint

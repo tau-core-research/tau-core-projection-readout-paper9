@@ -1,0 +1,6 @@
+galaxy,formula_id,gate_id,gate_status,evidence,remaining_obligation,endpoint_validation_claim_allowed,claim_boundary
+UGC12506,UGC12506_SOURCE_NATIVE_NFW_HSE,U12506_SNFW_G1_TABLE5_PARAMETERS,PASS,"c=14.87±0.6, R200=123.0±1.5 kpc",uncertainty propagation later,False,ugc12506_source_native_nfw_hse_shell_replay_not_validation
+UGC12506,UGC12506_SOURCE_NATIVE_NFW_HSE,U12506_SNFW_G2_NFW_PREFERENCE_LOAD,PASS,"chi2_nfw=0.21, chi2_iso=0.54, load=1.57143",independent reviewer can confirm table extraction,False,ugc12506_source_native_nfw_hse_shell_replay_not_validation
+UGC12506,UGC12506_SOURCE_NATIVE_NFW_HSE,U12506_SNFW_G3_HIGHSPIN_ENVELOPE,PASS,"lambda=0.15, RHI/Rd=7.85908",none for replay,False,ugc12506_source_native_nfw_hse_shell_replay_not_validation
+UGC12506,UGC12506_SOURCE_NATIVE_NFW_HSE,U12506_SNFW_G4_DIMENSIONS_LIMITS,PASS,velocity-squared amplitude times dimensionless kernel,none,False,ugc12506_source_native_nfw_hse_shell_replay_not_validation
+UGC12506,UGC12506_SOURCE_NATIVE_NFW_HSE,U12506_SNFW_G5_RESIDUAL_BLIND,PASS,kernel and amplitude use source tables and carrier only; no vobs/residual,vobs may enter only in scoring replay,False,ugc12506_source_native_nfw_hse_shell_replay_not_validation

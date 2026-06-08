@@ -1,0 +1,4 @@
+forbidden_input_id,forbidden_input,reason,claim_boundary
+BCR_FORBID_1_ENDPOINT_RESIDUALS,rotation residuals or endpoint RMSE,carrier selection must precede scoring,ugc12506_beta_closure_carrier_review_bundle_not_endpoint
+BCR_FORBID_2_BASELINE_RANKS,Newton/MOND/RAR/RMOND/TPG rank comparisons,baseline weakness may motivate stress testing but cannot choose carrier,ugc12506_beta_closure_carrier_review_bundle_not_endpoint
+BCR_FORBID_3_NFW_SCORE_SELECTION,choosing Li2020 NFW carrier from fit quality or endpoint advantage,Li2020 halo-fit products are control-only without explicit leakage policy,ugc12506_beta_closure_carrier_review_bundle_not_endpoint

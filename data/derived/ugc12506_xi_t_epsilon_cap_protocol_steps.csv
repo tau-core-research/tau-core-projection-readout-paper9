@@ -1,0 +1,6 @@
+galaxy,step_id,claim_type,status,statement,formula_consequence,uses_vobs_or_residual,endpoint_scores_allowed,claim_boundary
+UGC12506,C1_TIME_SHELL,definition,PASS,Use the small-mismatch shell Xi_t=1+epsilon_t.,Xi_t^2=1+2epsilon_t+epsilon_t^2.,False,False,ugc12506_xi_t_epsilon_cap_protocol_gate_not_endpoint
+UGC12506,C2_LINEARIZATION_ERROR,derived_ratio,PASS,The quadratic-to-linear correction ratio is epsilon_t/2.,A small cap controls the validity of the linearized readout interpretation.,False,False,ugc12506_xi_t_epsilon_cap_protocol_gate_not_endpoint
+UGC12506,C3_ADMISSIBLE_BOUND,protocol_tolerance,PASS_CONDITIONAL,Choose eta_quad=0.02 as a predeclared maximum second-order-to-linear ratio.,epsilon_t must be <=0.04.,False,False,ugc12506_xi_t_epsilon_cap_protocol_gate_not_endpoint
+UGC12506,C4_PROTOCOL_CAP,protocol_freeze,PASS_PROTOCOL_FREEZE,Freeze epsilon_cap=0.035 as a conservative value below 0.04.,UGC12506 epsilon_t=0.023844 remains below the cap and in the linear regime.,False,False,ugc12506_xi_t_epsilon_cap_protocol_gate_not_endpoint
+UGC12506,C5_UNIVERSAL_ORIGIN,claim_boundary,OPEN,This does not derive epsilon_cap as a universal Tau Core constant.,Population use requires predeclared class-cap policy or deeper Tau-side clock geometry.,False,False,ugc12506_xi_t_epsilon_cap_protocol_gate_not_endpoint

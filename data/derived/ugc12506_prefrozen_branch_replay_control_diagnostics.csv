@@ -1,0 +1,4 @@
+diagnostic_id,status,value,interpretation
+D1_AMPLITUDE_STRENGTH,AMPLITUDE_TOO_WEAK_FOR_OUTER_GAP,0.1274935939423399,Compares the source-frozen combined positive branch lift to the outer observed-baryonic gap. Low values mean the replay is source-clean but underpowered.
+D2_SIGN_BRANCH,POSITIVE_BRANCH_IS_BEST_PREFROZEN_BRANCH,UGC12506_COMBINED_HIGHS_PIN_ASYMMETRY_POSITIVE_PREFROZEN,Sign is not promoted from this replay; this only diagnoses branch behavior.
+D3_PRIOR_BASELINE_COMPARISON,POSITIVE_REPLAY_DOES_NOT_BEAT_PRIOR_BEST_DIAGNOSTIC,72.0083,"Prior diagnostics are not identical baselines for this replay, but they expose whether the new frozen branch is numerically competitive."

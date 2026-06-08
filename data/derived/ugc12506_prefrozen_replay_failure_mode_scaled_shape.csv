@@ -1,0 +1,2 @@
+galaxy,model_id,rmse_km_s,scale_multiplier,uses_vobs_for_scale,endpoint_validation_claim,claim_boundary,interpretation
+UGC12506,DIAGNOSTIC_ONLY_SCALED_PREFROZEN_SHAPE,70.99220640468191,14.53099799932998,True,False,ugc12506_prefrozen_replay_failure_modes_diagnostic_only,"If this is much better than the frozen replay, the kernel shape has information but the source-normalized amplitude rule is too weak. This is not an endpoint result."

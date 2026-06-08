@@ -1,0 +1,5 @@
+galaxy,feature_symbol,feature_value,coefficient_B_i,term_value,term_status,uses_vobs_or_residual,endpoint_scores_allowed,claim_boundary
+NGC4088,f_PA,0.5,0.5,0.25,ACCEPTED_FROM_FROZEN_DIGITIZATION_VALIDATION,False,False,ngc4088_time_projection_xi_eff_manifest_gate_not_endpoint
+NGC4088,f_R,0.2499999999999998,0.5,0.1249999999999999,ACCEPTED_FROM_FROZEN_DIGITIZATION_VALIDATION,False,False,ngc4088_time_projection_xi_eff_manifest_gate_not_endpoint
+NGC4088,f_q,1.0,0.5,0.5,ACCEPTED_FOR_PROTOCOL_NUMERIC_BOUND,False,False,ngc4088_time_projection_xi_eff_manifest_gate_not_endpoint
+NGC4088,f_mem,1.0,0.5,0.5,ACCEPTED_FOR_PROTOCOL_NUMERIC_BOUND,False,False,ngc4088_time_projection_xi_eff_manifest_gate_not_endpoint

@@ -1,0 +1,8 @@
+galaxy,gate_id,gate_status,evidence,remaining_obligation,endpoint_scores_allowed,claim_boundary
+NGC4088,MORPH_REVIEW_4088_1_BROAD_CLASS,PASS,distorted asymmetric warped H I disk and companion/history context,none at broad class level,False,ngc4088_ngc4013_morphology_adequacy_review_not_endpoint
+NGC4088,MORPH_REVIEW_4088_2_NUMERIC_PRECISION,BLOCKED,"x_warp, q_warp, and memory/history are not all independently accepted",independent morphology reviewer or source-native H I extraction,False,ngc4088_ngc4013_morphology_adequacy_review_not_endpoint
+NGC4088,MORPH_REVIEW_4088_3_NO_LEAKAGE,PASS,review uses source ledgers and gates only; no vobs/residual fields,keep endpoint scores excluded from label promotion,False,ngc4088_ngc4013_morphology_adequacy_review_not_endpoint
+NGC4013,MORPH_REVIEW_4013_1_COMPACT_REJECTION,PASS,source review rejects pure compact lane,none at compact-rejection level,False,ngc4088_ngc4013_morphology_adequacy_review_not_endpoint
+NGC4013,MORPH_REVIEW_4013_2_MIXED_OVERLAY_SUPPORT,PASS_CAVEATED,"smooth edge disk, warp/flare/disk-halo overlay, vertical component, lag context",lag-map digitization can strengthen but is not required for protocol,False,ngc4088_ngc4013_morphology_adequacy_review_not_endpoint
+NGC4013,MORPH_REVIEW_4013_3_RETROACTIVE_VALIDATION,BLOCKED,mixed lane developed after earlier diagnostic/control inspection,use only prospectively or on uninspected analogue/holdout,False,ngc4088_ngc4013_morphology_adequacy_review_not_endpoint
+NGC4013,MORPH_REVIEW_4013_4_NO_LEAKAGE,PASS,diagnostic RMSE is explicitly forbidden as label evidence,future scoring script must read frozen manifest unchanged,False,ngc4088_ngc4013_morphology_adequacy_review_not_endpoint

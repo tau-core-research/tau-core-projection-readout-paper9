@@ -1,0 +1,5 @@
+galaxy,candidate_field,field_status,source_basis,why_open,uses_vobs_or_residual,formula_freeze_allowed,endpoint_scores_allowed,claim_boundary
+UGC12506,projection_load_from_high_inclination_pv,CONTEXT_SUPPORTED_VALUES_OPEN,high-inclination PV/envelope-tracing method,no predeclared normalized e_proj value has been extracted,False,False,False,ugc12506_highmass_fast_source_context_not_kernel_freeze
+UGC12506,outer_hi_support_window,NUMERIC_CONTEXT_AVAILABLE_NOT_FORMULA_FREEZE,H I traced beyond 60 kpc; observed H I radius 58 +/- 2 kpc in source,needs mapping into a kernel window and amplitude rule,False,False,False,ugc12506_highmass_fast_source_context_not_kernel_freeze
+UGC12506,closure_stability_load,CONTEXT_SUPPORTED_VALUES_OPEN,"low density stable H I disk, stability thresholds discussed",no normalized z_cl(R) field is frozen,False,False,False,ugc12506_highmass_fast_source_context_not_kernel_freeze
+UGC12506,history_memory_high_spin_load,CONTEXT_SUPPORTED_VALUES_OPEN,reported high spin parameter lambda=0.15,needs residual-blind Tau-side mapping before use in a kernel,False,False,False,ugc12506_highmass_fast_source_context_not_kernel_freeze
