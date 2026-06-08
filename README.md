@@ -73,6 +73,27 @@ does not affect the committed Paper 9 smoke-test reproduction.
 `arxiv_submission_source.zip` is generated from `paper9_submission_source/` and
 excludes the rendered PDF and build byproducts.
 
+## Zenodo Publication Status
+
+This repository is Zenodo-ready for version `v0.1.0`:
+
+```text
+.zenodo.json
+CITATION.cff
+LICENSE
+arxiv_submission_source.zip
+paper9_submission_source/main.pdf
+```
+
+Important limitation: this GitHub repository is private. Zenodo's GitHub
+integration can archive GitHub releases only for repositories it can access;
+Zenodo's public FAQ states that private repositories are not accessible through
+that integration. Therefore, an automatic Zenodo DOI requires either making an
+appropriate release repository visible to Zenodo before release archiving, or
+uploading the release package directly through Zenodo with a Zenodo access
+token/manual deposit. The metadata file in this repository is the intended
+record metadata for that deposit.
+
 ## Scope
 
 This is a candidate/control audit paper.  The next validation step is an

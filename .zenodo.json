@@ -1,0 +1,29 @@
+{
+  "title": "Source-Frozen Projection, Time-Readout, and Closure-Control Kernels in SPARC Galaxies",
+  "upload_type": "software",
+  "description": "Reproducibility package for the Paper 9 projection-enriched candidate/control audit. The package contains manuscript source, rendered PDF, arXiv source package, smoke tests, and source-frozen artifacts for projection, time-readout, and closure-control kernel diagnostics. It is a candidate/control audit package, not population validation and not evidence for a new gravitational law.",
+  "creators": [
+    {
+      "name": "Olcsak, Jozsef"
+    }
+  ],
+  "license": "MIT",
+  "version": "v0.1.0",
+  "access_right": "open",
+  "keywords": [
+    "Tau Core",
+    "projection readout",
+    "time-readout",
+    "galaxy rotation curves",
+    "SPARC",
+    "candidate-control audit"
+  ],
+  "related_identifiers": [
+    {
+      "identifier": "https://github.com/tau-core-research/tau-core-projection-readout-paper9",
+      "relation": "isSupplementTo",
+      "scheme": "url"
+    }
+  ],
+  "notes": "The one-command reproduction path does not perform live online acquisition. Optional source-acquisition/provenance scripts and their online dependencies are documented in README.md."
+}
