@@ -17,6 +17,28 @@ are inspected.
 - It does not treat the post-diagnostic \(\beta_{\rm cl}\) expression as
   evidence on UGC12506.
 - It does not claim that the path/environment term is modeled or scored.
+- It does not claim that every source-frozen projection kernel is already a
+  Tau-side derived source.
+
+## Source-Grounding Boundary
+
+Paper 9 uses source-frozen projection, morphology-history, time-readout, and
+closure-control kernels. A source-frozen kernel is allowed into the audit only
+because its inputs are fixed before endpoint residuals are inspected. That is a
+leakage-prevention condition, not a full Tau Core derivation.
+
+The stronger source-grounding gate is projection induction: a channel can be
+promoted from operational proxy to Tau-side induced source only if a Tau-side
+mode is activated, survives the null/gauge quotient, remains stable under the
+closure test, and survives the 4D readout map. Schematically:
+
+```text
+O_i^4D = R_i^4D( Pi_stab([A_tau(u)]) )
+```
+
+This paper treats that gate as a claim boundary. Its candidate/control results
+motivate which channels should be grounded next; they do not by themselves
+prove the source-grounding derivation.
 
 ## Included Data
 
