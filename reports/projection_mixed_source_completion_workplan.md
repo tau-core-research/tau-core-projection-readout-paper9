@@ -1,0 +1,82 @@
+# Projection/Mixed Source-Completion Workplan
+
+**Doc class:** source-completion workplan
+
+**Reader role:** Paper 9 endpoint/replay maintainer
+
+**Status:** `PROJECTION_MIXED_SOURCE_COMPLETION_REQUIRED`
+
+**Canonical parent:** `reports/projection_enriched_candidate_kernel_audit.md`
+
+Canonical data artifact:
+
+```text
+data/derived/projection_mixed_source_completion_targets_v1.csv
+```
+
+## Purpose
+
+This workplan turns the common kernel ledger into a Paper 9-specific next
+action. It does not add endpoint scores. It identifies which source-side
+tokens must be frozen before projection-enriched mixed kernels can be replayed
+without leakage or double counting.
+
+## Current Priority
+
+The first runnable route is `K_projection_mixed`:
+
+```text
+present morphology handle
+    + observer/path projection
+    + source-frozen morphology-history phase
+    -> mixed readout kernel
+```
+
+This is the most direct Paper 9 test of the central operational claim:
+improving the source-side morphology/projection description should improve the
+readout prediction without using the rotation residual to choose the kernel.
+
+## Non-Overlap Discipline
+
+Every active source token must be assigned to exactly one channel:
+
+```text
+morphology/history: Theta_morph
+observer/path:      O_path or projection weights
+clock/readout:      Xi_t
+mass/closure:       beta_cl or envelope closure
+```
+
+If one source fact would support two channels, the route must either merge the
+channels into one shared quotient contribution, add an independent
+residual-blind source split, or keep the second channel diagnostic/control
+only.
+
+## Run Decision
+
+Allowed next action:
+
+```text
+freeze source-token ledger
+    -> choose one already-studied mixed/projection candidate
+    -> replay with the predeclared mixed kernel
+    -> compare against wrong-family controls
+```
+
+Blocked actions:
+
+```text
+do not promote Xi_t from warp/history evidence alone
+do not alter amplitude from rotation residuals
+do not choose radial windows from RMSE shape
+```
+
+## Claim Boundary
+
+If the route passes after this source completion, the allowed claim is still:
+
+```text
+caveated endpoint candidate / source-frozen replay support
+```
+
+It is not population validation and not proof of a new gravitational law.

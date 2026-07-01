@@ -105,6 +105,19 @@ Those optional scripts are provenance/source-review helpers.  They are not
 called by `scripts/reproduce.py`, and a failure to reach an external service
 does not affect the committed Paper 9 smoke-test reproduction.
 
+## Current Source-Completion Workplan
+
+The current replay-facing source-completion workplan is:
+
+```text
+reports/projection_mixed_source_completion_workplan.md
+data/derived/projection_mixed_source_completion_targets_v1.csv
+```
+
+It ranks the projection/mixed routes that can be advanced next and records the
+source-token non-overlap requirements that must be satisfied before additional
+endpoint-style replay is allowed.
+
 ## arXiv Source Package
 
 `arxiv_submission_source.zip` is generated from `paper9_submission_source/` and
