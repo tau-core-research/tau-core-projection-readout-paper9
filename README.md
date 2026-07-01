@@ -148,10 +148,17 @@ data/derived/ngc4013_expdisk_wvo_analog_selection_v1.csv
 ```
 
 It identifies NGC7331 as the closest already scored reference analogue,
-NGC4183 as a quiet/weak-projection control, UGC12506 as a stress case rather
-than a clean WVO analogue, and UGC07151 as the fastest fresh source-acquisition
-candidate if orientation plus vertical/warp evidence can be frozen before
-replay.
+NGC4183 as a quiet/weak-projection control, and UGC12506 as a stress case
+rather than a clean WVO analogue. The fast UGC07151 preflight is:
+
+```text
+reports/ugc07151_expdisk_wvo_source_preflight.md
+data/derived/ugc07151_expdisk_wvo_source_preflight_summary_v1.csv
+```
+
+UGC07151 passes the regular-disk/edge-on context but currently fails the
+WVO-specific source gate, so it is retained as an edge-on/truncation control
+or source-reacquisition target, not as the clean fresh expdisk+WVO holdout.
 
 ## arXiv Source Package
 

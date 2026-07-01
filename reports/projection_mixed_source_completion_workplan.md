@@ -144,3 +144,20 @@ UGC12506  -> stress/path-closure case, not the clean WVO analogue
 The next claim-safe executable step is therefore source acquisition for a
 fresh exponential-disk candidate with independent vertical/warp/onset support,
 not another NGC4013-only scoring pass.
+
+The first fast fresh-candidate preflight is:
+
+```text
+reports/ugc07151_expdisk_wvo_source_preflight.md
+data/derived/ugc07151_expdisk_wvo_source_preflight_summary_v1.csv
+data/derived/ugc07151_expdisk_wvo_source_preflight_gates_v1.csv
+```
+
+It upgrades UGC07151 from unresolved acquisition target to a more precise
+status: regular-disk and edge-on context pass, but WVO/vertical-warp/onset
+support is blocked or negative in the quickest source-side check. Therefore
+UGC07151 should be preserved as an edge-on/truncation control or revisited only
+if an independent WVO/onset source is acquired. The best near-term route is now
+to source-sharpen NGC7331 as the existing expdisk plus vertical/outer-warp
+reference analogue, or to find a different fresh exponential-disk galaxy with
+explicit WVO support.

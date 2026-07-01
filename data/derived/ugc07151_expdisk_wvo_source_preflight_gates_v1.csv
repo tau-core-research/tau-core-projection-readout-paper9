@@ -1,0 +1,5 @@
+gate_id,gate_status,reason,endpoint_scores_allowed,claim_boundary
+U7151_G1_REGULAR_EXPDISK_CARRIER,PASS_SOURCE_CONTEXT,SPARC/manifest context supports K_exponential_disk and no bulge-dominated caveat is active in the queue.,False,ugc07151_expdisk_wvo_source_preflight_not_endpoint
+U7151_G2_EDGEON_ORIENTATION,PASS_CAVEATED_SOURCE_CONTEXT,"Inclination is 90 deg in the SPARC packet. This promotes observer/projection relevance, but not WVO by itself.",False,ugc07151_expdisk_wvo_source_preflight_not_endpoint
+U7151_G3_WVO_VERTICAL_WARP_ONSET,BLOCKED_NEGATIVE_OR_INSUFFICIENT_SOURCE_SUPPORT,The fastest located external source gives truncation/H I extent context rather than clean vertical/warp/onset support.,False,ugc07151_expdisk_wvo_source_preflight_not_endpoint
+U7151_G4_EXPDISK_WVO_PROSPECTIVE_REPLAY,BLOCKED_DO_NOT_SCORE_AS_WVO_ANALOGUE_YET,A source-native WVO/onset observable is missing. The galaxy can be retained as edge-on/truncation control or revisited if independent WVO evidence is acquired.,False,ugc07151_expdisk_wvo_source_preflight_not_endpoint

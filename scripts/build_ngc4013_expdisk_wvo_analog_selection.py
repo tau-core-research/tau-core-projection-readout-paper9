@@ -44,6 +44,12 @@ def main() -> None:
     population = pd.read_csv(DATA / "projection_enriched_population_validation_cases.csv")
     queue = pd.read_csv(DATA / "projection_queue_fast_priority.csv")
     trial = pd.read_csv(DATA / "full_time_morphology_trial_galaxy_summary.csv")
+    ugc07151_preflight_path = DATA / "ugc07151_expdisk_wvo_source_preflight_summary_v1.csv"
+    ugc07151_preflight = (
+        pd.read_csv(ugc07151_preflight_path).iloc[0]
+        if ugc07151_preflight_path.exists()
+        else None
+    )
 
     def population_row(galaxy: str) -> pd.Series | None:
         match = population[population["galaxy"] == galaxy]
@@ -81,8 +87,16 @@ def main() -> None:
         (
             "UGC07151",
             "fresh exponential-disk projection queue candidate",
-            "SOURCE_ACQUISITION_REQUIRED_ORIENTATION_GATE_BLOCKED",
-            "resolve source-native orientation plus vertical/warp evidence before any expdisk+WVO replay",
+            (
+                "FAST_PREFLIGHT_WVO_BLOCKED_EDGEON_TRUNCATION_CONTROL"
+                if ugc07151_preflight is not None
+                else "SOURCE_ACQUISITION_REQUIRED_ORIENTATION_GATE_BLOCKED"
+            ),
+            (
+                "preserve as edge-on/truncation control unless independent WVO/onset evidence is acquired"
+                if ugc07151_preflight is not None
+                else "resolve source-native orientation plus vertical/warp evidence before any expdisk+WVO replay"
+            ),
         ),
         (
             "UGC12506",
@@ -117,10 +131,14 @@ def main() -> None:
                 ),
                 "queue_priority": "" if qrow is None else str(qrow.get("priority_tier", "")),
                 "primary_blocker": (
-                    str(qrow.get("primary_blocker", ""))
-                    if qrow is not None
+                    str(ugc07151_preflight["wvo_source_support"])
+                    if galaxy == "UGC07151" and ugc07151_preflight is not None
                     else (
-                        "" if prow is None else str(prow.get("source_caveat", ""))
+                        str(qrow.get("primary_blocker", ""))
+                        if qrow is not None
+                        else (
+                            "" if prow is None else str(prow.get("source_caveat", ""))
+                        )
                     )
                 ),
                 "full_time_trial_context": (
@@ -151,6 +169,11 @@ def main() -> None:
                 ],
                 "primary_reference_analog": "NGC7331",
                 "fresh_holdout_candidate": "UGC07151_if_source_orientation_and_warp_pass",
+                "fresh_holdout_status": (
+                    "UGC07151_fast_preflight_blocks_WVO"
+                    if ugc07151_preflight is not None
+                    else "UGC07151_unresolved"
+                ),
                 "quiet_control": "NGC4183",
                 "stress_not_clean_analog": "UGC12506",
                 "endpoint_scores_run_here": False,
@@ -245,16 +268,17 @@ def main() -> None:
         "NGC5907 is useful as an edge-on projection analogue, but not an exact",
         "expdisk+WVO analogue. NGC4183 is useful as a quiet/weak-projection control.",
         "UGC12506 is a stress/path-closure case, not the clean first test of this",
-        "specific completion. UGC07151 is the fastest fresh queue candidate, but it",
-        "requires source-native orientation and vertical/warp support before any",
-        "endpoint replay.",
+        "specific completion. UGC07151 was the fastest fresh queue candidate; the",
+        "fast preflight now treats it as edge-on/truncation control unless",
+        "independent WVO/onset evidence is acquired.",
         "",
         "## Next Finite Action",
         "",
-        "For a clean prospective test, acquire or review source-native evidence for",
-        "a fresh exponential-disk candidate with independent vertical/warp/onset",
-        "support. The candidate can then freeze the expdisk+WVO formula before",
-        "scoring. Until that source freeze exists, NGC4013 remains a morphology",
+        "For a clean prospective test, either source-sharpen the already processed",
+        "NGC7331 vertical/outer-warp reference analogue, or acquire a new",
+        "exponential-disk candidate with independent vertical/warp/onset support.",
+        "The candidate can then freeze the expdisk+WVO formula before scoring.",
+        "Until that source freeze exists, NGC4013 remains a morphology",
         "completion-pressure case rather than a validation endpoint.",
         "",
         "## Disallowed Claims",
