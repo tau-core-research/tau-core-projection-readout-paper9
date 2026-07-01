@@ -95,3 +95,16 @@ It assigns NGC4013 warp, orientation, flare/scaleheight, lag, and extended
 component evidence to a caveated WVO/mixed projection route and explicitly
 blocks an independent `Xi_t` endpoint because no separate clock/readout source
 token is currently available.
+
+The corresponding replay-classification audit is:
+
+```text
+reports/ngc4013_projection_mixed_replay_classification.md
+data/derived/ngc4013_projection_mixed_replay_classification_v1.csv
+data/derived/ngc4013_projection_mixed_replay_classification_summary_v1.csv
+```
+
+It does not add a new score. It reclassifies the existing NGC4013 score ladder
+under the non-overlap ledger: WVO/mixed replay is caveated-allowed, the
+independent `Xi_t` route is blocked, and the expdisk+WVO score remains
+prospective-only.

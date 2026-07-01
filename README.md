@@ -118,6 +118,17 @@ It ranks the projection/mixed routes that can be advanced next and records the
 source-token non-overlap requirements that must be satisfied before additional
 endpoint-style replay is allowed.
 
+The first replay-classification artifact under that workplan is:
+
+```text
+reports/ngc4013_projection_mixed_replay_classification.md
+data/derived/ngc4013_projection_mixed_replay_classification_v1.csv
+```
+
+It is an audit summary, not a new scorer: NGC4013 WVO/mixed replay is
+caveated-allowed, the independent `Xi_t` route remains blocked, and the
+expdisk+WVO result remains prospective-only.
+
 ## arXiv Source Package
 
 `arxiv_submission_source.zip` is generated from `paper9_submission_source/` and
