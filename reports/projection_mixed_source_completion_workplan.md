@@ -80,3 +80,18 @@ caveated endpoint candidate / source-frozen replay support
 ```
 
 It is not population validation and not proof of a new gravitational law.
+
+## First Case Ledger
+
+The first concrete source-token ledger under this workplan is:
+
+```text
+reports/ngc4013_projection_mixed_nonoverlap_ledger.md
+data/derived/ngc4013_projection_mixed_nonoverlap_ledger_v1.csv
+data/derived/ngc4013_projection_mixed_nonoverlap_gates_v1.csv
+```
+
+It assigns NGC4013 warp, orientation, flare/scaleheight, lag, and extended
+component evidence to a caveated WVO/mixed projection route and explicitly
+blocks an independent `Xi_t` endpoint because no separate clock/readout source
+token is currently available.
