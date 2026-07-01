@@ -1,0 +1,4 @@
+field,field_status,accepted_form,source_basis,remaining_obligation,claim_boundary
+q_warp,CARRIED_INTERVAL_ACCEPTED_FOR_FREEZE_PREP,"[0.0079404475812108, 0.2057957876154617]",THINGS MOM0 centroid and envelope observables; interval carried because the source-native observables disagree by design choice.,"formula freeze must propagate interval, not collapse it to one fitted value",ngc7331_exact_transfer_readiness_not_endpoint
+sigma_warp_sign,CONTEXT_AVAILABLE_SIGN_RULE_STILL_FORMULA_LEVEL,MOM1 consistent receding-side orientation carried to formula freeze,THINGS MOM1 sign/cross review,freeze added-readout vs attenuation convention explicitly,ngc7331_exact_transfer_readiness_not_endpoint
+epsilon_cross,CONSERVATIVE_BOUND_CARRIED,0.4885713979761795,MOM1 PA/velocity/q-observable/context terms,"treat as caveated bound, not validation",ngc7331_exact_transfer_readiness_not_endpoint

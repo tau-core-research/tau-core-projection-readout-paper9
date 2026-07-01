@@ -173,5 +173,16 @@ data/derived/ngc7331_source_sharpening_reference_gates_v1.csv
 It records the strongest currently available reference result for the mixed
 disk-carrier plus vertical/outer-warp route: V3 source-sharpened replay
 improves the accepted caveated V1 reference and beats the wrong-projection
-control, while exact-transfer promotion remains blocked by missing
-source-native H I warp amplitude/asymmetry, sign, and cross-term bounds.
+control, while exact-transfer promotion remains endpoint-blocked at the
+formula-freeze layer. The q-warp interval and epsilon-cross bound are now
+available as carried source-side inputs for freeze preparation, but the route
+still needs a frozen exact-transfer manifest before any score.
+
+The exact-transfer readiness artifact is:
+
+```text
+reports/ngc7331_exact_transfer_readiness_audit.md
+data/derived/ngc7331_exact_transfer_readiness_summary_v1.csv
+data/derived/ngc7331_exact_transfer_readiness_fields_v1.csv
+data/derived/ngc7331_exact_transfer_readiness_gates_v1.csv
+```

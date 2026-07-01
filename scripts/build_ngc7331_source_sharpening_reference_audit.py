@@ -44,6 +44,8 @@ def main() -> None:
     freeze = pd.read_csv(DATA / "ngc7331_fractional_onset_v2_replay_freeze_summary.csv").iloc[0]
     replay = pd.read_csv(DATA / "ngc7331_v2_v3_replay_holdout_endpoint_summary.csv").iloc[0]
     exact = pd.read_csv(DATA / "ngc7331_b2_exact_transfer_source_evidence_summary.csv").iloc[0]
+    readiness_path = DATA / "ngc7331_exact_transfer_readiness_summary_v1.csv"
+    readiness = pd.read_csv(readiness_path).iloc[0] if readiness_path.exists() else None
     v1 = pd.read_csv(
         DATA / "ngc7331_expdisk_vertical_outer_warp_mixed_accepted_endpoint_summary.csv"
     ).iloc[0]
@@ -65,7 +67,14 @@ def main() -> None:
                 ),
                 "fractional_onset_kpc": float(onset["approx_warp_onset_kpc"]),
                 "fractional_onset_over_rhi": float(onset["approx_warp_onset_over_RHI"]),
-                "exact_transfer_blocker": str(exact["next_required_action"]),
+                "exact_transfer_status": (
+                    str(readiness["status"]) if readiness is not None else str(exact["packet_status"])
+                ),
+                "exact_transfer_blocker": (
+                    "build frozen exact-transfer manifest carrying q_warp interval and sign rule"
+                    if readiness is not None
+                    else str(exact["next_required_action"])
+                ),
                 "construction_used_vobs": False,
                 "scoring_used_vobs_in_source_audit": False,
                 "new_endpoint_validation_claim": False,
@@ -111,13 +120,25 @@ def main() -> None:
             },
             {
                 "layer": "exact_transfer_upgrade",
-                "status": str(exact["source_evidence_review_status"]),
+                "status": (
+                    str(readiness["status"])
+                    if readiness is not None
+                    else str(exact["source_evidence_review_status"])
+                ),
                 "what_it_shows": (
-                    "Complex warp context is confirmed, but q_warp amplitude, "
+                    "Complex warp context is confirmed. A q_warp interval and "
+                    "epsilon_cross bound can now be carried into freeze preparation, "
+                    "but endpoint scoring remains blocked until a manifest exists."
+                    if readiness is not None
+                    else "Complex warp context is confirmed, but q_warp amplitude, "
                     "sign, and epsilon_cross bounds are not closed."
                 ),
                 "allowed_use_in_paper9": "blocker ledger for full kernel",
-                "blocked_use": "exact-transfer formula freeze",
+                "blocked_use": (
+                    "endpoint scoring before exact-transfer manifest freeze"
+                    if readiness is not None
+                    else "exact-transfer formula freeze"
+                ),
             },
         ]
     )
@@ -137,8 +158,16 @@ def main() -> None:
             },
             {
                 "gate_id": "N7331_REF_G3_EXACT_TRANSFER",
-                "gate_status": "BLOCKED_MEASUREMENTS_PENDING",
-                "reason": "q_warp amplitude, sign convention, and epsilon_cross bound remain open.",
+                "gate_status": (
+                    "PASS_FREEZE_PREP_ENDPOINT_BLOCKED"
+                    if readiness is not None
+                    else "BLOCKED_MEASUREMENTS_PENDING"
+                ),
+                "reason": (
+                    "q_warp interval and epsilon_cross bound are carried; exact-transfer manifest still missing."
+                    if readiness is not None
+                    else "q_warp amplitude, sign convention, and epsilon_cross bound remain open."
+                ),
             },
             {
                 "gate_id": "N7331_REF_G4_POPULATION_VALIDATION",
@@ -197,9 +226,10 @@ def main() -> None:
         "window, but the source-only fractional-onset gate and V3 replay show that",
         "source-sharpening moves in the expected direction.",
         "",
-        "The stronger exact-transfer kernel is still blocked. The relevant missing",
-        "items are not arbitrary: the complex H I warp context means q_warp amplitude,",
-        "sign convention, and cross-term bounds matter and cannot be silently assumed.",
+        "The stronger exact-transfer kernel has advanced but remains endpoint-blocked.",
+        "The relevant source terms are no longer completely missing: the q_warp",
+        "interval and epsilon_cross bound can be carried into formula-freeze",
+        "preparation. A frozen manifest is still required before any endpoint score.",
         "",
         "## Allowed Claim",
         "",

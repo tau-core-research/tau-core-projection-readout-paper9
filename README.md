@@ -170,8 +170,18 @@ data/derived/ngc7331_source_sharpening_reference_summary_v1.csv
 It records the current best reference path: NGC7331 has an expdisk plus
 vertical/outer-warp family, V3 source-sharpened replay improves the caveated V1
 reference and beats the wrong-projection replay control, but the exact-transfer
-upgrade remains blocked by missing source-native warp amplitude/sign/cross-term
-bounds.
+upgrade is still endpoint-blocked at the formula-freeze layer. The source-side
+q-warp interval and epsilon-cross bound are now carried for freeze preparation,
+but no exact-transfer score is allowed until a frozen manifest propagates that
+interval and sign rule.
+
+The exact-transfer readiness audit is:
+
+```text
+reports/ngc7331_exact_transfer_readiness_audit.md
+data/derived/ngc7331_exact_transfer_readiness_summary_v1.csv
+data/derived/ngc7331_exact_transfer_readiness_gates_v1.csv
+```
 
 ## arXiv Source Package
 
