@@ -2089,6 +2089,24 @@ validated.  It claims that when a kernel is used, the path from source
 morphology to radial formula, amplitude/carrier rule, and endpoint status is
 auditable.
 
+\paragraph{Kernel-audit verdict.}
+The current Paper~2/Paper~9 kernel audit separates four roles.  First,
+morphology-only kernels are accepted as the inherited one-dimensional preflight
+baseline from Paper~8.  Second, projection-enriched mixed kernels are allowed
+only when their source tokens, visibility weights, amplitude/carrier rule, and
+non-overlap ledger are frozen before endpoint scoring.  Third, \(\Theta_{\rm
+morph}\) history/phase terms are morphology-state corrections, not clock
+corrections.  Fourth, \(\Xi_t\) or \(\Xi_{\rm eff}\) terms are clock/readout
+interval controls and require independent clock evidence; they cannot reuse
+warp, flare, vertical-overlay, or H~I asymmetry inputs already consumed by an
+active morphology/projection kernel.  The practical consequence is visible in
+the case studies: NGC4088 keeps the accepted warp/history route with
+\(\Xi_{\rm eff}=1\), NGC4013 rejects the extra \(\Xi_t\) overlay as
+double-counting, NGC5907 is treated as projection-saturated at the current
+proxy level, and UGC12506 remains a stress object rather than an endpoint
+validation case.  Thus the projection layer is not a universal improvement
+term; it is an audited source-frozen kernel family.
+
 \section{Problematic-case route ledger}
 \label{sec:problematic-ledger}
 
