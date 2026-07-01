@@ -1,0 +1,6 @@
+rule_id,rule,status,claim_boundary
+A1,"An analog may be selected from source morphology/projection ledgers, not from residual shape.",ACTIVE,ngc4013_expdisk_wvo_analog_selection_not_endpoint
+A2,NGC4013 expdisk+WVO remains prospective-only and cannot be retroactively promoted.,ACTIVE,ngc4013_expdisk_wvo_analog_selection_not_endpoint
+A3,"Existing scored analogues can serve as references, but not as fresh holdout validation.",ACTIVE,ngc4013_expdisk_wvo_analog_selection_not_endpoint
+A4,A fresh candidate needs source-native regular disk carrier plus independent vertical/warp/onset support.,ACTIVE,ngc4013_expdisk_wvo_analog_selection_not_endpoint
+A5,"Quiet disks and stress/path-closure cases are controls, not forced WVO successes.",ACTIVE,ngc4013_expdisk_wvo_analog_selection_not_endpoint

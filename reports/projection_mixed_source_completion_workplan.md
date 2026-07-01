@@ -121,3 +121,26 @@ It records why the best wrong-family control (`K_exponential_disk`) should be
 read as completion pressure for a mixed disk-carrier plus WVO readout, not as a
 true negative against the Tau Core framework. The mixed expdisk+WVO route
 remains prospective-only for NGC4013.
+
+The corresponding finite analog-selection audit is:
+
+```text
+reports/ngc4013_expdisk_wvo_analog_selection.md
+data/derived/ngc4013_expdisk_wvo_analog_selection_v1.csv
+data/derived/ngc4013_expdisk_wvo_analog_selection_rules_v1.csv
+```
+
+It prevents a retrospective promotion of the NGC4013 expdisk+WVO score by
+separating four roles:
+
+```text
+NGC7331   -> closest already scored reference analogue, not fresh validation
+NGC5907   -> edge-on projection analogue, not exact expdisk+WVO
+NGC4183   -> quiet/weak-projection control
+UGC07151  -> fastest fresh expdisk queue candidate if vertical/warp evidence passes
+UGC12506  -> stress/path-closure case, not the clean WVO analogue
+```
+
+The next claim-safe executable step is therefore source acquisition for a
+fresh exponential-disk candidate with independent vertical/warp/onset support,
+not another NGC4013-only scoring pass.

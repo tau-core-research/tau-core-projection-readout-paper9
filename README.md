@@ -140,6 +140,19 @@ It explains why the best wrong-family control is better read as evidence that
 the pure WVO route is undercomplete and likely needs a regular disk carrier,
 not as endpoint validation or a true negative.
 
+The finite follow-up selection audit is:
+
+```text
+reports/ngc4013_expdisk_wvo_analog_selection.md
+data/derived/ngc4013_expdisk_wvo_analog_selection_v1.csv
+```
+
+It identifies NGC7331 as the closest already scored reference analogue,
+NGC4183 as a quiet/weak-projection control, UGC12506 as a stress case rather
+than a clean WVO analogue, and UGC07151 as the fastest fresh source-acquisition
+candidate if orientation plus vertical/warp evidence can be frozen before
+replay.
+
 ## arXiv Source Package
 
 `arxiv_submission_source.zip` is generated from `paper9_submission_source/` and
