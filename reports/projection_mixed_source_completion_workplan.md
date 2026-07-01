@@ -108,3 +108,16 @@ It does not add a new score. It reclassifies the existing NGC4013 score ladder
 under the non-overlap ledger: WVO/mixed replay is caveated-allowed, the
 independent `Xi_t` route is blocked, and the expdisk+WVO score remains
 prospective-only.
+
+The follow-up morphology-completion audit is:
+
+```text
+reports/ngc4013_morphology_completion_pressure.md
+data/derived/ngc4013_morphology_completion_pressure_summary_v1.csv
+data/derived/ngc4013_morphology_completion_pressure_components_v1.csv
+```
+
+It records why the best wrong-family control (`K_exponential_disk`) should be
+read as completion pressure for a mixed disk-carrier plus WVO readout, not as a
+true negative against the Tau Core framework. The mixed expdisk+WVO route
+remains prospective-only for NGC4013.

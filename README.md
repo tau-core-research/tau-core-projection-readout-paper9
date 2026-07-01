@@ -129,6 +129,17 @@ It is an audit summary, not a new scorer: NGC4013 WVO/mixed replay is
 caveated-allowed, the independent `Xi_t` route remains blocked, and the
 expdisk+WVO result remains prospective-only.
 
+The same NGC4013 run also has a morphology-completion pressure audit:
+
+```text
+reports/ngc4013_morphology_completion_pressure.md
+data/derived/ngc4013_morphology_completion_pressure_summary_v1.csv
+```
+
+It explains why the best wrong-family control is better read as evidence that
+the pure WVO route is undercomplete and likely needs a regular disk carrier,
+not as endpoint validation or a true negative.
+
 ## arXiv Source Package
 
 `arxiv_submission_source.zip` is generated from `paper9_submission_source/` and
