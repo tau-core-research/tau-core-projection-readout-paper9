@@ -160,6 +160,19 @@ UGC07151 passes the regular-disk/edge-on context but currently fails the
 WVO-specific source gate, so it is retained as an edge-on/truncation control
 or source-reacquisition target, not as the clean fresh expdisk+WVO holdout.
 
+The NGC7331 reference-analogue consolidation is:
+
+```text
+reports/ngc7331_source_sharpening_reference_audit.md
+data/derived/ngc7331_source_sharpening_reference_summary_v1.csv
+```
+
+It records the current best reference path: NGC7331 has an expdisk plus
+vertical/outer-warp family, V3 source-sharpened replay improves the caveated V1
+reference and beats the wrong-projection replay control, but the exact-transfer
+upgrade remains blocked by missing source-native warp amplitude/sign/cross-term
+bounds.
+
 ## arXiv Source Package
 
 `arxiv_submission_source.zip` is generated from `paper9_submission_source/` and

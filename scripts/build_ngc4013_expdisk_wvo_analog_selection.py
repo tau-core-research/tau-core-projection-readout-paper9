@@ -50,6 +50,12 @@ def main() -> None:
         if ugc07151_preflight_path.exists()
         else None
     )
+    ngc7331_reference_path = DATA / "ngc7331_source_sharpening_reference_summary_v1.csv"
+    ngc7331_reference = (
+        pd.read_csv(ngc7331_reference_path).iloc[0]
+        if ngc7331_reference_path.exists()
+        else None
+    )
 
     def population_row(galaxy: str) -> pd.Series | None:
         match = population[population["galaxy"] == galaxy]
@@ -147,6 +153,13 @@ def main() -> None:
                     else f"source={trow['source_status']}; "
                     f"delta={float(trow['full_time_minus_base_rmse_km_s']):.6f}"
                 ),
+                "reference_sharpening_context": (
+                    f"v3_rmse={float(ngc7331_reference['v3_source_sharpened_rmse_km_s']):.3f}; "
+                    f"v3_minus_v1={float(ngc7331_reference['v3_minus_v1_rmse_km_s']):.3f}; "
+                    f"exact_blocker={ngc7331_reference['exact_transfer_blocker']}"
+                    if galaxy == "NGC7331" and ngc7331_reference is not None
+                    else ""
+                ),
                 "recommended_next_action": next_action,
                 "allowed_endpoint_use_now": False,
                 "uses_vobs_or_residual_for_selection": False,
@@ -168,6 +181,11 @@ def main() -> None:
                     "prospective_mixed_rmse_km_s"
                 ],
                 "primary_reference_analog": "NGC7331",
+                "primary_reference_status": (
+                    "NGC7331_source_sharpened_replay_positive_exact_transfer_blocked"
+                    if ngc7331_reference is not None
+                    else "NGC7331_reference_unconsolidated"
+                ),
                 "fresh_holdout_candidate": "UGC07151_if_source_orientation_and_warp_pass",
                 "fresh_holdout_status": (
                     "UGC07151_fast_preflight_blocks_WVO"
@@ -263,7 +281,9 @@ def main() -> None:
         "The strongest already processed analogue is NGC7331, because it already has",
         "an exponential-disk carrier plus vertical/outer-warp mixed route. It is not",
         "a fresh holdout, so it should be used as a reference analogue and not as",
-        "new validation.",
+        "new validation. The source-sharpened V3 replay is positive, but the",
+        "exact-transfer upgrade is still blocked by source-native warp-amplitude,",
+        "sign, and cross-term requirements.",
         "",
         "NGC5907 is useful as an edge-on projection analogue, but not an exact",
         "expdisk+WVO analogue. NGC4183 is useful as a quiet/weak-projection control.",

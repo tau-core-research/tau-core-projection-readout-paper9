@@ -1,0 +1,5 @@
+gate_id,gate_status,reason,endpoint_scores_allowed_here,claim_boundary
+N7331_REF_G1_REFERENCE_ANALOG,PASS_REFERENCE_ANALOG,NGC7331 already has expdisk plus vertical/outer-warp mixed readout evidence.,False,ngc7331_source_sharpening_reference_not_new_validation
+N7331_REF_G2_SOURCE_SHARPENING,PASS_REPLAY_CONTROL_POSITIVE,V3 source-sharpened replay improves V1 and beats the wrong projection control.,False,ngc7331_source_sharpening_reference_not_new_validation
+N7331_REF_G3_EXACT_TRANSFER,BLOCKED_MEASUREMENTS_PENDING,"q_warp amplitude, sign convention, and epsilon_cross bound remain open.",False,ngc7331_source_sharpening_reference_not_new_validation
+N7331_REF_G4_POPULATION_VALIDATION,BLOCKED_NOT_A_FRESH_HOLDOUT,"This is an already processed reference analogue, not an independent population test.",False,ngc7331_source_sharpening_reference_not_new_validation

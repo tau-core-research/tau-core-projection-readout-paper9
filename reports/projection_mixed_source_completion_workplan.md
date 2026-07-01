@@ -161,3 +161,17 @@ if an independent WVO/onset source is acquired. The best near-term route is now
 to source-sharpen NGC7331 as the existing expdisk plus vertical/outer-warp
 reference analogue, or to find a different fresh exponential-disk galaxy with
 explicit WVO support.
+
+The NGC7331 reference-analogue consolidation is:
+
+```text
+reports/ngc7331_source_sharpening_reference_audit.md
+data/derived/ngc7331_source_sharpening_reference_summary_v1.csv
+data/derived/ngc7331_source_sharpening_reference_gates_v1.csv
+```
+
+It records the strongest currently available reference result for the mixed
+disk-carrier plus vertical/outer-warp route: V3 source-sharpened replay
+improves the accepted caveated V1 reference and beats the wrong-projection
+control, while exact-transfer promotion remains blocked by missing
+source-native H I warp amplitude/asymmetry, sign, and cross-term bounds.
