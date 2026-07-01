@@ -40,6 +40,21 @@ This paper treats that gate as a claim boundary. Its candidate/control results
 motivate which channels should be grounded next; they do not by themselves
 prove the source-grounding derivation.
 
+The current theory update also adds a source-factored non-double-counting
+discipline. Operationally:
+
+```text
+K_i(s0) = Ktilde_i(M_tau^stab)
+t_obs^gal = R_time^{obs,gal}(M_tau^stab, OI_gal, o_path^gal)
+one protected source coordinate -> one quotient contribution
+```
+
+Every projection, morphology-history, and time-readout component must declare
+`SourceSupp(Delta K_a)`. If two components reuse the same source/proxy
+coordinate, they must be merged into one shared quotient term, separated by an
+independent residual-blind source split, or retained only as diagnostic/control
+curves. This is why some lower-RMSE time/projection replays remain blocked.
+
 ## Included Data
 
 The repository currently includes the manuscript source, rendered PDF, figures

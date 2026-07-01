@@ -127,6 +127,26 @@ readouts of the same deeper state.  They cannot, however, be treated as
 independent endpoint factors unless a residual-blind non-overlap ledger shows
 that the same source fact is not being counted twice.
 
+We use the current source-factored Tau Core wording for this discipline.  A
+stabilized source class \(M_\tau^{\rm stab}\) is read through branch kernels,
+\[
+K_i(s_0)=\widetilde K_i(M_\tau^{\rm stab}),
+\]
+and observer time is an internal host-sector-conditioned observer/path ordering
+readout,
+\[
+t_{\rm obs}^{\rm gal}
+=R_{\rm time}^{\rm obs,gal}
+(M_\tau^{\rm stab},OI_{\rm gal},o_{\rm path}^{\rm gal}),
+\]
+not an external Tau-time in which the source body evolves.  The sector label is
+not cosmetic: a galaxy rotation observer/path order is not automatically the
+same object as a cosmological clock, lensing time-delay, or quantum measurement
+order.  Therefore
+morphology, observer projection, morphology-history, and clock/time channels
+are allowed to differ only as distinct quotient coordinates or as explicitly
+declared joint coordinates of the same source class.
+
 The list of channels above is not meant to be exhaustive.  In the underlying
 Tau Core motivation, other projections of the same internal morphology state
 could also affect the effective rotation readout: for example a
@@ -596,6 +616,10 @@ The priority rule is:
   readings remain plausible, the time contribution is measured only by the
   quotient remainder \(T/A\), where \(A\) is the active morphology/projection
   source subspace and \(T\) is the candidate time-projection source ledger.
+  Equivalently, every proposed component must declare
+  \({\rm SourceSupp}(\Delta K_a)\).  Equal or source-dependent supports must be
+  merged into a joint quotient term, separated by an independent source-side
+  split, or demoted to diagnostic/control status.
   \item If no independent separator exists, the lower-level direct
   morphology/projection reading wins, while the time reading may remain a
   diagnostic or control route.
@@ -2256,6 +2280,13 @@ saturated projection cases, and slightly worsens two already close
 mixed/projection kernels.  This pattern is consistent with a
 morphology/history-dependent time/projection readout correction rather than an
 unconstrained curve-fitting knob.
+
+The same pattern enforces the source-coordinate non-double-counting rule.  A
+time/projection factor is not accepted merely because it improves a curve.  It
+must either have source support independent of the active morphology/projection
+kernel, or be represented as a shared quotient contribution.  When the support
+ledger overlaps, the extra factor remains a diagnostic/control curve even if it
+lowers RMSE.
 
 The next scientific step is a predeclared projection-enriched catalogue test:
 source-frozen observer/projection labels must select enriched kernels before
