@@ -1,7 +1,9 @@
 # Tau Core Projection Readout Paper 9
 
 This public repository contains Paper 9 in the Tau Core SPARC morphology/readout
-sequence.
+sequence. In this sequence, the intrinsic Tau-side object is called the
+**morphological body** `M_tau`; observed galaxy morphology and readout labels
+are projected/proxy handles, not the body itself.
 
 ## Main Claim
 
