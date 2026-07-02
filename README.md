@@ -55,6 +55,18 @@ coordinate, they must be merged into one shared quotient term, separated by an
 independent residual-blind source split, or retained only as diagnostic/control
 curves. This is why some lower-RMSE time/projection replays remain blocked.
 
+The current paper-level kernel status map is:
+
+```text
+reports/kernel_record_status_audit.md
+```
+
+It maps the Paper 9 projection, time/clock, history, path/environment, and
+closure-control kernels onto the shared `KernelRecord_tau^S` discipline.  The
+main paper-level result is a source-support and non-double-counting discipline
+for projection-enriched kernels, not population validation of a final path-aware
+Tau Core kernel.
+
 ## Included Data
 
 The repository currently includes the manuscript source, rendered PDF, figures
