@@ -42,6 +42,14 @@ This paper treats that gate as a claim boundary. Its candidate/control results
 motivate which channels should be grounded next; they do not by themselves
 prove the source-grounding derivation.
 
+The current source-arrow audit makes this boundary more explicit. The finite
+root-action groupoid does not provide a smooth deformation tangent. A
+non-scalar smooth transport therefore requires either an independently sourced
+full body connection or Kato transport of a varying, constant-rank,
+source-owned access projector. Scalar phase/clock holonomy is not a substitute
+for these mechanisms. Endpoint residuals and candidate kernels cannot be used
+to reconstruct the missing source arrows.
+
 The current theory update also adds a source-factored non-double-counting
 discipline. Operationally:
 
