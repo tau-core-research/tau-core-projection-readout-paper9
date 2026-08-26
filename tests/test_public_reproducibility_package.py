@@ -30,6 +30,8 @@ def test_claim_boundary_markers_present():
     assert "not evidence on UGC12506" in tex
     assert "post-diagnostic transfer candidate" in tex
     assert "population-level gravitational law is validated here" in tex
+    assert "restricted ablation of a full coframe endpoint" in tex
+    assert "neither scores nor detects a non-Einsteinian Tau metric distortion" in tex
 
 
 def test_arxiv_zip_is_source_only():

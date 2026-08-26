@@ -15,7 +15,7 @@
 \title{A source-frozen candidate audit of projection, time-readout, and
 closure-control kernels in SPARC galaxies}
 \author{Jozsef Olcsak}
-\date{2026\\Last revised: 22 August 2026}
+\date{2026\\Last revised: 26 August 2026}
 
 \begin{document}
 \maketitle
@@ -527,6 +527,64 @@ before scoring.  It cannot be inferred from the rotation residual.  In the
 present paper the full-time morphology replay is therefore only a diagnostic
 proxy for this channel; a source-complete time-projection endpoint would
 require an explicit residual-blind \(\Xi_t(R)\) manifest.
+
+\subsubsection{Full-4D completion of the scalar clock shell}
+
+The scalar factor in Eq.~\eqref{eq:time-readout-shell} is not the general
+observer-specific metric readout.  On a source-frozen observer chart the full
+coframe descent has ADM form
+\begin{equation}
+ ds_O^2=-N_O^2d\chi^2
+ +q_{ij}^{(O)}(dx^i+\beta_O^i d\chi)
+                 (dx^j+\beta_O^j d\chi).
+ \label{eq:full-4d-adm-readout}
+\end{equation}
+For an equatorial circular path with \(\Omega=d\phi/d\chi\), the local
+Eulerian tangential speed is
+\begin{equation}
+ \boxed{
+ v_{O,{\rm local}}^2(R)
+ =
+ {q_{\phi\phi}^{(O)}(R)\over N_O^2(R)}
+ \left[\Omega(R)+\beta_O^\phi(R)\right]^2 .}
+ \label{eq:full-4d-local-speed}
+\end{equation}
+The spectroscopic endpoint additionally depends on the null transfer.  For
+photon tangent \(k\) and emitter/observer four-velocities
+\(u_{\rm em},u_{\rm obs}\),
+\begin{equation}
+ 1+z_O={[-u_{\rm em}\!\cdot k]_{\rm em}
+        \over[-u_{\rm obs}\!\cdot k]_{\rm obs}},
+ \qquad
+ V_{\rm obs}^\tau
+ =\mathcal R_{\rm spec}
+  [g_O^\tau,u_{\rm em},u_{\rm obs},k,\mathcal I],
+ \label{eq:full-4d-spectral-readout}
+\end{equation}
+where \(\mathcal I\) is the frozen inclination, line-profile, beam and
+radiative-transfer ledger.
+
+The complete scoring object is likewise metric-level rather than clock-only.
+For source-frozen visible, mixed and unresolved Hessian blocks, define
+\[
+ E_K=(K_{HH}-K_{\rm std})-CK_{VV}^{-1}C^\dagger.
+\]
+Only its coframe-pushed image may be sent through the spectral, clock, spatial
+or photon terminals.  A nonzero mixed block does not suffice, because a
+graph-normal auxiliary completion has \(C\neq0\) and \(E_K=0\).  Joint
+terminal scoring must quotient exact duplicates and retain the full
+cross-terminal covariance.  The scalar \(\Xi_t\) diagnostics in this paper do
+not reconstruct this object and remain unchanged.
+
+Equation~\eqref{eq:time-readout-shell} is recovered only after the spatial
+metric, shift and photon-transfer prescription are held fixed and the
+remaining mismatch is compressed into one lapse-like scalar factor.  It is
+therefore a restricted ablation of a full coframe endpoint, not an exhaustive
+test of Tau 4D distortion.  None of the existing scalar-clock replays is
+recomputed by this recognition.  A full-coframe replay becomes admissible only
+after one source-derived \(D_O(R)\) fixes \(N_O\), \(\beta_O^i\),
+\(q_{ij}^{(O)}\), and the null-transfer map before endpoint access, with
+\(D_O=I\) retained as the exact GR/null control.
 
 The channel acts on several projections at once.  It does not replace the
 morphology or gravity kernel; it changes how those kernels are read through an
@@ -2333,6 +2391,11 @@ source-proxy, caveated endpoint-active, or blocked.  The audit's claim is
 organizational rather than physical: Paper 9 establishes a source-support and
 non-double-counting discipline for projection-enriched kernels, not population
 validation of a final path-aware Tau Core readout law.
+
+The full-4D completion sharpens this boundary without changing the numerical
+record.  The reported \(\Xi_t\) curves remain scalar diagnostic/control
+ablations.  No source-derived nonzero \(D_O(R)\) is supplied here, so this
+paper neither scores nor detects a non-Einsteinian Tau metric distortion.
 
 The next scientific step is a predeclared projection-enriched catalogue test:
 source-frozen observer/projection labels must select enriched kernels before

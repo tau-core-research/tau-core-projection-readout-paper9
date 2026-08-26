@@ -21,6 +21,17 @@ are inspected.
 - It does not claim that the path/environment term is modeled or scored.
 - It does not claim that every source-frozen projection kernel is already a
   Tau-side derived source.
+- It does not claim that the scalar `Xi_t` controls exhaust, detect, or select
+  a non-Einsteinian Tau 4D metric distortion.
+
+## Full-4D Completion Boundary
+
+The scalar `Xi_t` shell is now identified as a restricted ablation of a full
+coframe endpoint. A physical full-4D replay would require one source-derived
+radial `D_O(R)` to fix lapse, shift, spatial metric and source-observer photon
+transfer before endpoint access, while retaining `D_O=I` as the exact null.
+This clarification changes no existing Paper 9 score and authorizes no
+retroactive 4D correction.
 
 ## Source-Grounding Boundary
 
@@ -85,6 +96,13 @@ shared source-review ledgers and reusable morphology/readout infrastructure are
 kept in the common repository:
 
 `tau-core-morphology-readout-common`
+
+## Full-4D Score Boundary
+
+The later compiler identifies the scoreable source object as
+`E_K = (K_HH - K_std) - C K_VV^-1 C^dagger`; `C != 0` alone is insufficient.
+Paper 9 does not yet provide the occupied nonzero coframe excess and therefore
+does not report a physical Nature score.
 
 ## Reproduce
 
