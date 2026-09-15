@@ -33,6 +33,15 @@ transfer before endpoint access, while retaining `D_O=I` as the exact null.
 This clarification changes no existing Paper 9 score and authorizes no
 retroactive 4D correction.
 
+The co-registered shift ablation is now exact conditionally:
+\`q_tau = -omega_uv P_beta L_O^-1 B_OS^* W_rho(D_B Cx + D_A a)\`, followed by
+the standard rapidity-to-velocity map if that terminal is physically occupied.
+It introduces no free terminal gain, but it does not yet select a nonzero
+galactic incidence or \`Q_OS\`. A scalar rotation record cannot by itself
+separate body morphology from observer access; a non-duplicated, stable joint
+terminal law is required. Existing scalar-clock and projection scores remain
+unchanged.
+
 ## Source-Grounding Boundary
 
 Paper 9 uses source-frozen projection, morphology-history, time-readout, and
@@ -250,3 +259,23 @@ or through the Zenodo API with this metadata.
 
 This is a candidate/control audit paper.  The next validation step is an
 independent, predeclared projection-enriched catalogue test.
+
+<!-- BEGIN OBSERVER UPDATE 20260914 -->
+## Observer realization update (2026-09-14)
+
+For galactic inference, these observer constructions do not derive a rotation-curve correction or identify a measured residual as a parent effect. Existing endpoint freezes and scores are unchanged.
+
+The manuscript distinguishes inherited BRAC contact, conditional coherent-state
+selection and interacting local covariance from physical observer identification,
+preparation and stable resolution. Those physical claims remain open. No
+empirical score was changed. The [dependency and source-result ledger](data/derived/observer_update_2026_09_14.json) records the assumptions and controls.
+<!-- END OBSERVER UPDATE 20260914 -->
+
+<!-- BEGIN LAB UPDATE 20260915 -->
+## Finite lab integration (2026-09-15)
+
+The manuscript imports the scope-specific source, body, observer or terminal
+result from the current lab. Supplied priors, conditional recovery and physical
+selection remain separate. No SI constant, viable universe or Tau-specific
+signal is newly established. See the [source and ownership ledger](data/derived/lab_update_2026_09_15.json).
+<!-- END LAB UPDATE 20260915 -->
