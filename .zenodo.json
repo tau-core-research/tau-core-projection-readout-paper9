@@ -4,7 +4,8 @@
   "description": "Reproducibility package for the Paper 9 projection-enriched candidate/control audit. The package contains manuscript source, rendered PDF, arXiv source package, smoke tests, and source-frozen artifacts for projection, time-readout, and closure-control kernel diagnostics. It is a candidate/control audit package, not population validation and not evidence for a new gravitational law.",
   "creators": [
     {
-      "name": "Olcsak, Jozsef"
+      "name": "Olcsak, Jozsef",
+      "orcid": "0009-0003-7311-6522"
     }
   ],
   "license": "MIT",

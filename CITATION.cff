@@ -5,6 +5,7 @@ type: article
 authors:
   - family-names: Olcsak
     given-names: Jozsef
+    orcid: "https://orcid.org/0009-0003-7311-6522"
 year: 2026
 date-released: "2026-08-22"
 version: "v0.1.2"
